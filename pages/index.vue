@@ -1,6 +1,14 @@
 <template>
 	<v-row>
-		<v-col v-for="(item, i) in items" :key="i" cols="12" xs="12" sm="8" md="6" lg="4">
+		<v-col
+			v-for="(item, i) in items"
+			:key="i"
+			cols="12"
+			xs="12"
+			sm="8"
+			md="6"
+			lg="4"
+		>
 			<v-card
 				height="250px"
 				width="350px"
@@ -41,31 +49,79 @@ export default {
 					to: 'page3',
 					background: '',
 				},
-        {
+				{
 					title: 'title3',
 					text: 'text3',
 					to: 'page3',
 					background: '',
 				},
-        {
+				{
 					title: 'title3',
 					text: 'text3',
 					to: 'page3',
 					background: '',
 				},
-        {
+				{
 					title: 'title3',
 					text: 'text3',
 					to: 'page3',
 					background: '',
 				},
-        {
+				{
 					title: 'title3',
 					text: 'text3',
 					to: 'page3',
 					background: '',
 				},
-        {
+				{
+					title: 'title3',
+					text: 'text3',
+					to: 'page3',
+					background: '',
+				},
+				{
+					title: 'title3',
+					text: 'text3',
+					to: 'page3',
+					background: '',
+				},
+				{
+					title: 'title3',
+					text: 'text3',
+					to: 'page3',
+					background: '',
+				},
+				{
+					title: 'title3',
+					text: 'text3',
+					to: 'page3',
+					background: '',
+				},
+				{
+					title: 'title3',
+					text: 'text3',
+					to: 'page3',
+					background: '',
+				},
+				{
+					title: 'title3',
+					text: 'text3',
+					to: 'page3',
+					background: '',
+				},
+				{
+					title: 'title3',
+					text: 'text3',
+					to: 'page3',
+					background: '',
+				},
+				{
+					title: 'title3',
+					text: 'text3',
+					to: 'page3',
+					background: '',
+				},
+				{
 					title: 'title3',
 					text: 'text3',
 					to: 'page3',
