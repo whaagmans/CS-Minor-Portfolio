@@ -9,19 +9,28 @@
 			md="6"
 			lg="4"
 		>
-			<v-card
-				height="250px"
-				width="350px"
-				:to="item.to"
-				elevation="5"
-				router
-				exact
-				class="ma-5"
-			>
-				<v-card-title>{{ item.title }}</v-card-title>
-				<v-img height="160px" contain :src="item.background" dark class="pb-3">
-				</v-img>
-			</v-card>
+			<v-hover v-slot="{ hover }" close-delay="50">
+				<v-card
+					height="250px"
+					width="350px"
+					:to="item.to"
+					router
+					exact
+					class="ma-5"
+					:elevation="hover ? 12 : 2"
+					:class="{ 'on-hover': hover }"
+				>
+					<v-card-title>{{ item.title }}</v-card-title>
+					<v-img
+						height="160px"
+						contain
+						:src="item.background"
+						dark
+						class="pb-3"
+					>
+					</v-img>
+				</v-card>
+			</v-hover>
 		</v-col>
 	</v-row>
 </template>
@@ -132,3 +141,13 @@ export default {
 	},
 }
 </script>
+
+<style scoped>
+.v-card {
+	transition: opacity 0.15s ease-in-out;
+}
+
+.v-card:not(.on-hover) {
+	opacity: 0.75;
+}
+</style>
