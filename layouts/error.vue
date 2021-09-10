@@ -9,7 +9,7 @@
 							class="mx-auto"
 							height="70%"
 							width="70%"
-							src="/undraw_page_not_found.svg"
+							:src="require('~/assets/img/undraw_page_not_found.svg')"
 							alt="404 image"
 						/>
 						<v-img
@@ -17,7 +17,7 @@
 							class="mx-auto"
 							height="70%"
 							width="70%"
-							src="/undraw_bug_fixing.svg"
+							:src="require('~/assets/img/undraw_bug_fixing.svg')"
 							alt="404 image"
 						/>
 						<h1 v-if="error.statusCode === 404" class="text-center">

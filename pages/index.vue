@@ -44,7 +44,7 @@ export default {
 					title: 'Two Factor Authentication',
 					text: 'text',
 					to: 'tasks/two-factor-authentication',
-					background: '/undraw_two_factor_authentication.svg',
+					background: require("~/assets/img/undraw_two_factor_authentication.svg"),
 				},
 				{
 					title: 'title2',
