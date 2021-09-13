@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-const hello = require('./hello');
-app.use(hello);
+const auth = require('./2FA');
+app.use(auth);
 
 if(require.main === module){
     const port = 3001;

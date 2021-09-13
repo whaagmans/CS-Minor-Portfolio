@@ -1,7 +1,9 @@
 const { Router } = require('express')
 const router = Router();
 
-router.use('/hello', (req, res) => {
+const speakEasy = require('speakeasy')
+
+router.use('/auth', (req, res) => {
     res.end('Hello World!!')
 });
 
