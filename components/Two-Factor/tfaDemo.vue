@@ -2,7 +2,7 @@
 	<v-container>
 		<v-btn @click="createQR">create</v-btn>
 		<v-btn @click="remove">remove</v-btn>
-		<v-img :src="QRImg"></v-img>
+		<v-img height="300" width="300" :src="QRImg"></v-img>
 	</v-container>
 </template>
 
