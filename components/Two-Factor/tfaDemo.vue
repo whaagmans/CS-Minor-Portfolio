@@ -1,7 +1,10 @@
 <template>
 	<v-container>
-		<v-btn @click="createQR">create</v-btn>
-		<v-btn @click="remove">remove</v-btn>
+		<v-text-field v-model="token" label="Token"></v-text-field>
+		<v-btn color="green" @click="createUser">Create user</v-btn>
+		<v-btn :disabled="noUser" color="blue" @click="verify">Verify</v-btn>
+		<v-btn :disabled="noUser" color="blue" @click="validate">Validate</v-btn>
+		<v-btn color="red" @click="remove">remove</v-btn>
 		<v-img height="300" width="300" :src="QRImg"></v-img>
 	</v-container>
 </template>
@@ -14,11 +17,19 @@ export default {
 			QRImg: null,
 			id: null,
 			secret: null,
+			noUser: true,
+			token: null,
 		};
 	},
+	watch: {
+		token() {
+			if (this.secret !== null && this.token !== '') this.noUser = false;
+			else this.noUser = true;
+		},
+	},
 	methods: {
-		async createQR() {
-			await this.$axios.$post('api/register').then((data) => {
+		async createUser() {
+			await this.$axios.$post(window.location.origin + '/api/register').then((data) => {
 				this.id = data.id;
 				this.secret = data.secret;
 			});
@@ -27,6 +38,22 @@ export default {
 			const code = await QRCode.toDataURL(optString);
 
 			this.QRImg = code;
+		},
+		verify() {
+			this.$axios
+				.$post(window.location.origin + '/api/verify', {
+					userId: this.id,
+					token: this.token,
+				})
+				.then((data) => console.log(data));
+		},
+		validate() {
+			this.$axios
+				.$post(window.location.origin + '/api/validate', {
+					userId: this.id,
+					token: this.token,
+				})
+				.then((data) => console.log(data));
 		},
 		remove() {
 			this.id = null;

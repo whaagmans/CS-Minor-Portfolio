@@ -3,13 +3,13 @@ const express = require('express');
 const JsonDB = require('node-json-db').JsonDB;
 const Config = require('node-json-db/dist/lib/JsonDBConfig').Config;
 const uuid = require('uuid');
-const QRCode = require('qrcode');
 
 const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// TODO: implement firestore instead of node-json-db
 const dbConfig = new Config('MyDataBase', true, false, '/');
 
 const db = new JsonDB(dbConfig);
@@ -18,7 +18,7 @@ app.post('/register', (req, res) => {
   const id = uuid.v4();
   try {
     const path = `/user/${id}`;
-    const tempSecret = Speakeasy.generateSecret();
+    const tempSecret = Speakeasy.generateSecret({ window: 10 });
 
     db.push(path, { id, tempSecret });
 
@@ -41,14 +41,14 @@ app.post('/verify', (req, res) => {
     });
     if (verified) {
       db.push(path, { id: userId, secret: user.tempSecret });
-      res.json({ verified: true });
+      res.json({ verified });
     } else {
       res.json({
-        verified: false,
+        verified,
       });
     }
-  } catch {
-    res.status(500).json({ message: 'Error retrieving user' });
+  } catch (err) {
+    res.status(500).json({ message: 'Error retrieving user', error: err });
   }
 });
 
@@ -71,8 +71,8 @@ app.post('/validate', (req, res) => {
     } else {
       res.json({ validated: false });
     }
-  } catch {
-    res.status(500).json({ message: 'Error retrieving user' });
+  } catch (err) {
+    res.status(500).json({ message: 'Error retrieving user', error: err });
   }
 });
 

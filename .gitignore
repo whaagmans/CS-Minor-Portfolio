@@ -175,3 +175,4 @@ dist/
 yarn-error.log
 
 # End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,vue,vuejs,nuxt,nuxtjs
+./MyDataBase.json
