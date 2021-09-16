@@ -1,9 +1,16 @@
 <template>
-  <div>temp</div>
+	<div>
+		<Theorie />
+		<tfaDemo />
+	</div>
 </template>
 
 <script>
-export default {}
+import tfaDemo from '~/components/Two-Factor/tfaDemo.vue';
+import Theorie from '~/components/Two-Factor/Theorie.vue';
+export default {
+	components: { tfaDemo, Theorie },
+};
 </script>
 
 <style>
