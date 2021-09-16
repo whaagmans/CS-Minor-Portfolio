@@ -60,7 +60,7 @@ export default {
     '@nuxtjs/pwa',
     // https://firebase.nuxtjs.org
     '@nuxtjs/firebase',
-    
+
     '@nuxtjs/toast',
   ],
 

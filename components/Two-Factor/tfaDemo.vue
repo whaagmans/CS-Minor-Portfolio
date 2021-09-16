@@ -4,7 +4,7 @@
 		<v-btn color="green" @click="createUser">Create user</v-btn>
 		<v-btn :disabled="noUser" color="blue" @click="verify">Verify</v-btn>
 		<v-btn color="red" @click="remove">remove</v-btn>
-		<v-img height="300" width="300" :src="QRImg"></v-img>
+		<v-img class="mt-2" height="300" width="300" :src="QRImg"></v-img>
 	</v-container>
 </template>
 
