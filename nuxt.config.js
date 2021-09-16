@@ -40,9 +40,7 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  serverMiddleware: {
-    '/api': '~/api',
-  },
+  serverMiddleware: {},
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
@@ -60,7 +58,30 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    // https://firebase.nuxtjs.org
+    '@nuxtjs/firebase',
+    
+    '@nuxtjs/toast',
   ],
+
+  toast: {
+    position: 'bottom-center',
+    duration: 5000,
+  },
+
+  firebase: {
+    config: {
+      apiKey: 'AIzaSyDUqyxNHDHxi75XFazSawUFEtSVFna6JBs',
+      authDomain: 'cs-minor-portfolio-wh.firebaseapp.com',
+      projectId: 'cs-minor-portfolio-wh',
+      storageBucket: 'cs-minor-portfolio-wh.appspot.com',
+      messagingSenderId: '845058648604',
+      appId: '1:845058648604:web:fd2a8ae98fe117c3068dd9',
+    },
+    services: {
+      firestore: true,
+    },
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},

@@ -3,7 +3,6 @@
 		<v-text-field v-model="token" label="Token"></v-text-field>
 		<v-btn color="green" @click="createUser">Create user</v-btn>
 		<v-btn :disabled="noUser" color="blue" @click="verify">Verify</v-btn>
-		<v-btn :disabled="noUser" color="blue" @click="validate">Validate</v-btn>
 		<v-btn color="red" @click="remove">remove</v-btn>
 		<v-img height="300" width="300" :src="QRImg"></v-img>
 	</v-container>
@@ -11,6 +10,9 @@
 
 <script>
 import QRCode from 'qrcode';
+import { v4 } from 'uuid';
+import speakeasy from 'speakeasy';
+
 export default {
 	data() {
 		return {
@@ -29,36 +31,54 @@ export default {
 	},
 	methods: {
 		async createUser() {
-			await this.$axios.$post(window.location.origin + '/api/register').then((data) => {
-				this.id = data.id;
-				this.secret = data.secret;
-			});
-			if (this.secret === null) return;
-			const optString = `otpauth://totp/CS-Minor-Portfolio:${this.id}?secret=${this.secret}&issuer=CS-Minor-Portfolio`;
+			this.id = v4();
+			this.secret = await speakeasy.generateSecret({ window: 10 });
+			const created = this.writeCreateUser(this.id, this.secret);
+			if (this.secret === null && !created) return;
+			const optString = `otpauth://totp/CS-Minor-Portfolio:${this.id}?secret=${this.secret.base32}&issuer=CS-Minor-Portfolio`;
 			const code = await QRCode.toDataURL(optString);
-
 			this.QRImg = code;
 		},
-		verify() {
-			this.$axios
-				.$post(window.location.origin + '/api/verify', {
-					userId: this.id,
-					token: this.token,
-				})
-				.then((data) => console.log(data));
-		},
-		validate() {
-			this.$axios
-				.$post(window.location.origin + '/api/validate', {
-					userId: this.id,
-					token: this.token,
-				})
-				.then((data) => console.log(data));
+
+		async verify() {
+			const secret = await this.fetchUser();
+			const token = this.token;
+			const verified = speakeasy.totp.verify({
+				secret: secret.ascii,
+				encoding: 'ascii',
+				token,
+				window: 1,
+			});
+			if (verified) {
+				this.$toast.success('Token correct!');
+			} else this.$toast.error('Token incorrect!');
 		},
 		remove() {
 			this.id = null;
 			this.secret = null;
 			this.QRImg = null;
+		},
+		async fetchUser() {
+			const userRef = await this.$fire.firestore
+				.collection('users')
+				.doc(this.id);
+			try {
+				const userDoc = await userRef.get();
+				return userDoc.data().secret;
+			} catch (e) {
+				return null;
+			}
+		},
+		async writeCreateUser(id, _secret) {
+			const userRef = this.$fire.firestore.collection('users').doc(id);
+			try {
+				await userRef.set({
+					secret: _secret,
+				});
+				return true;
+			} catch (e) {
+				return false;
+			}
 		},
 	},
 };
