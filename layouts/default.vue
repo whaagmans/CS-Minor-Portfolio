@@ -49,7 +49,7 @@
 			</v-container>
 		</v-main>
 		<v-footer :absolute="!fixed" app>
-			<span>&copy; {{ new Date().getFullYear() }}</span>
+			<span>{{ new Date().getFullYear() }}</span>
 		</v-footer>
 	</v-app>
 </template>
@@ -59,29 +59,34 @@ export default {
 	data() {
 		return {
 			drawer: false,
-      fixed: true,
+			fixed: true,
 			items: [
 				{
 					icon: 'mdi-apps',
 					title: 'Home',
 					to: '/',
 				},
-        {
+				{
 					icon: 'mdi-apps',
 					title: '2FA',
 					to: '/tasks/two-factor-authentication',
+				},
+				{
+					icon: 'mdi-apps',
+					title: 'TICT',
+					to: '/tasks/tict',
 				},
 			],
 			miniVariant: false,
 			right: true,
 			rightDrawer: false,
 			title: 'CS Minor',
-		}
+		};
 	},
 	methods: {
 		themeSwitch() {
-			this.$vuetify.theme.dark = !this.$vuetify.theme.dark
+			this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
 		},
 	},
-}
+};
 </script>
