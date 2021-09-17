@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		<embed src="/TICT_Quickscan.pdf" width="100%" height="800px" />
+		<embed style="aspect-ratio:1/1" src="/TICT_Quickscan.pdf" width="100%" />
 	</v-container>
 </template>
 
