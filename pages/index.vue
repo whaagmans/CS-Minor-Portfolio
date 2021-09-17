@@ -49,7 +49,7 @@ export default {
 				{
 					title: 'Technology Impact Cycle Tool',
 					to: '/tasks/tict',
-					background: '',
+					background: require('~/assets/img/undraw_Sorting_thoughts.svg'),
 				},
 				{
 					title: 'title3',
