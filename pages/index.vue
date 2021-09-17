@@ -13,6 +13,7 @@
 				<v-card
 					height="250px"
 					width="350px"
+					max-width="calc(100% - 40px)"
 					:to="item.to"
 					router
 					exact
@@ -44,7 +45,7 @@ export default {
 					title: 'Two Factor Authentication',
 					text: 'text',
 					to: 'tasks/two-factor-authentication',
-					background: require("~/assets/img/undraw_two_factor_authentication.svg"),
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 				{
 					title: 'title2',
@@ -137,9 +138,9 @@ export default {
 					background: '',
 				},
 			],
-		}
+		};
 	},
-}
+};
 </script>
 
 <style scoped>
