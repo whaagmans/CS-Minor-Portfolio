@@ -67,12 +67,12 @@ export default {
 					to: '/',
 				},
 				{
-					icon: 'mdi-apps',
+					icon: 'mdi-book-open-page-variant-outline',
 					title: '2FA',
 					to: '/tasks/two-factor-authentication',
 				},
 				{
-					icon: 'mdi-apps',
+					icon: 'mdi-book-open-page-variant-outline',
 					title: 'TICT',
 					to: '/tasks/tict',
 				},
