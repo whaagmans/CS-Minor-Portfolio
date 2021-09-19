@@ -22,13 +22,6 @@ export default {
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: [
-      {
-        hid: 'trello',
-        src: 'https://p.trellocdn.com/embed.min.js',
-        defer: true,
-      },
-    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

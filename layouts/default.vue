@@ -18,15 +18,15 @@
 				</v-list-item>
 			</v-list>
 			<template #append>
-				<div class="ml-1">
-					<blockquote class="trello-board-compact">
-						<a
-							href="https://trello.com/b/OMkGUS1N/personal-learning-plan-and-reporting"
-							>Trello Board</a
-						>
-					</blockquote>
-					<script src="https://p.trellocdn.com/embed.min.js"></script>
-				</div>
+				<v-btn
+					depressed
+					x-large
+					height="8vh"
+					width="100%"
+					href="https://tree.taiga.io/project/redeamer-cs-minor-portfolio/timeline"
+					><v-icon class="mr-2">mdi-developer-board</v-icon>
+					Scrum board
+				</v-btn>
 			</template>
 		</v-navigation-drawer>
 		<v-app-bar elevate-on-scroll fixed app>
