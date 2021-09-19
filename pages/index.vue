@@ -1,9 +1,9 @@
 <template>
 	<v-row>
 		<v-col
-			class="d-flex justify-space-around"
 			v-for="(item, i) in items"
 			:key="i"
+			class="d-flex justify-space-around"
 			cols="12"
 			xs="12"
 			sm="8"
@@ -22,7 +22,7 @@
 					:elevation="hover ? 12 : 2"
 					:class="{ 'on-hover': hover }"
 				>
-					<v-card-title >{{ item.title }}</v-card-title>
+					<v-card-title class="text-break" >{{ item.title }}</v-card-title>
 					<v-img
 						height="160px"
 						contain
