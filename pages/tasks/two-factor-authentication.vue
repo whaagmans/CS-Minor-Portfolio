@@ -1,12 +1,11 @@
 <template>
-	<div>
-		<h1 class="text-h2 text-center">Two Factor Authentication</h1>
+	<v-container>
 		<Theorie />
 		<v-divider class="my-12"></v-divider>
 		<v-lazy>
 			<tfaDemo />
 		</v-lazy>
-	</div>
+	</v-container>
 </template>
 
 <script>

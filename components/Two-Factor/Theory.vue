@@ -1,11 +1,11 @@
 <template>
-	<v-container class="ml-3 text-break px-16">
+	<v-container class="text-body-1 text-break">
 		<h2 class="text-h4 mb-5">What is Two-Factor Authentication?</h2>
-		<p class="text-body-1">
+		<p>
 			Two-factor authentication (also known as 2FA) is a security mechanism that
 			needs two different forms of identification to gain access to something.
 		</p>
-		<p class="text-body-1">
+		<p>
 			Two-factor authentication can be used to make an online account, a
 			smartphone, or even a door more secure. Before anything that is being
 			secured may be accessed, 2FA requires two forms of information from the
@@ -14,7 +14,7 @@
 		</p>
 		<h2 class="text-h4">Pros and Cons of 2FA</h2>
 		<h3 class="text-h5">Pros</h3>
-		<ul class="text-body-1">
+		<ul>
 			<li class="text-h6">Second layer of security</li>
 			<p>
 				This is a self-evident statement, but it is also the most obvious
@@ -56,7 +56,7 @@
 			</p>
 		</ul>
 		<h3 class="text-h5">Cons</h3>
-		<ul class="text-body-1">
+		<ul>
 			<li class="text-h6">Time</li>
 			<p>
 				Everything is relative when it comes to time. So, while the time it
@@ -107,10 +107,23 @@
 				personal data and user accounts is often far higher than multifactor
 				authentication will ever cost.
 			</p>
-			<p></p>
 		</ul>
 		<h2 class="text-h4 mb-5">Types of 2FA</h2>
 		<h3 class="text-h5 mb-4">Hardware Tokens</h3>
+		<p>
+			Hardware tokens are small, like a key fob, and generate a new numeric code
+			every 30-seconds, making them the most ancient form of 2FA. When a user
+			tries to access an account, they glance at the device and enter the
+			displayed 2FA code back into the site or app. Other versions of hardware
+			tokens automatically transfer the 2FA code when plugged into a computer’s
+			USB port.
+		</p>
+		<p>
+			They’ve got several downsides, however. For businesses, distributing these
+			units is costly. And users find their size makes them easy to lose or
+			misplace. Most importantly, they are not entirely safe from being hacked.
+		</p>
+		<p class="wi"></p>
 		<h3 class="text-h5 mb-4">SMS Text-Message and Voice-based</h3>
 
 		<h3 class="text-h5 mb-4">Software Tokens</h3>
@@ -118,7 +131,7 @@
 		<h5 class="text-subtitle-1 font-weight-bold">OTP</h5>
 		<h5 class="text-subtitle-1 font-weight-bold">TOTP</h5>
 		<h5 class="text-subtitle-1 font-weight-bold">HOTP</h5>
-		<p class="text-body-1"></p>
+		<p></p>
 		<h3 class="text-h4 mb-4">Push Notification</h3>
 	</v-container>
 </template>
