@@ -1,10 +1,14 @@
 <template>
-	<v-container>
-		<v-text-field v-model="token" label="Token"></v-text-field>
-		<v-btn color="green" @click="createUser">Create user</v-btn>
-		<v-btn :disabled="noUser" color="blue" @click="verify">Verify</v-btn>
-		<v-btn color="red" @click="remove">remove</v-btn>
-		<v-img class="mt-2" height="300" width="300" :src="QRImg"></v-img>
+	<v-container class="ml-3">
+		<h2 class="text-h3 mb-3">POC</h2>
+		<h3 class="text-h5">TOTP (Timed One Time Password)</h3>
+		<v-container>
+			<v-text-field v-model="token" label="Token"></v-text-field>
+			<v-btn color="green" @click="createUser">Create user</v-btn>
+			<v-btn :disabled="noUser" color="blue" @click="verify">Verify</v-btn>
+			<v-btn color="red" @click="remove">remove</v-btn>
+			<v-img class="mt-2" height="300" width="300" :src="QRImg"></v-img>
+		</v-container>
 	</v-container>
 </template>
 

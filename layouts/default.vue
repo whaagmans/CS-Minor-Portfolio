@@ -76,6 +76,16 @@ export default {
 					title: 'TICT',
 					to: '/tasks/tict',
 				},
+				{
+					icon: 'mdi-book-open-page-variant-outline',
+					title: 'Cryptography',
+					to: '/tasks/cryptography',
+				},
+				{
+					icon: 'mdi-book-open-page-variant-outline',
+					title: 'Threat Analysis',
+					to: '/tasks/threat-analysis',
+				},
 			],
 			miniVariant: false,
 			right: true,

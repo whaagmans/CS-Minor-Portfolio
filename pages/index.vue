@@ -22,7 +22,7 @@
 					:elevation="hover ? 12 : 2"
 					:class="{ 'on-hover': hover }"
 				>
-					<v-card-title class="text-break" >{{ item.title }}</v-card-title>
+					<v-card-title class="text-break">{{ item.title }}</v-card-title>
 					<v-img
 						height="160px"
 						contain
@@ -49,78 +49,78 @@ export default {
 				},
 				{
 					title: 'Technology Impact Cycle Tool',
-					to: '/tasks/tict',
+					to: 'tasks/tict',
 					background: require('~/assets/img/undraw_Sorting_thoughts.svg'),
 				},
 				{
-					title: 'title3',
-					to: '',
-					background: '',
+					title: 'Threat analysis',
+					to: 'tasks/threat-analysis',
+					background: require('~/assets/img/undraw_file_analysis.svg'),
+				},
+				{
+					title: 'Cryptography',
+					to: 'tasks/cryptography',
+					background: require('~/assets/img/undraw_mathematics.svg'),
 				},
 				{
 					title: 'title3',
 					to: '',
-					background: '',
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 				{
 					title: 'title3',
 					to: '',
-					background: '',
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 				{
 					title: 'title3',
 					to: '',
-					background: '',
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 				{
 					title: 'title3',
 					to: '',
-					background: '',
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 				{
 					title: 'title3',
 					to: '',
-					background: '',
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 				{
 					title: 'title3',
 					to: '',
-					background: '',
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 				{
 					title: 'title3',
 					to: '',
-					background: '',
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 				{
 					title: 'title3',
 					to: '',
-					background: '',
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 				{
 					title: 'title3',
 					to: '',
-					background: '',
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 				{
 					title: 'title3',
 					to: '',
-					background: '',
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 				{
 					title: 'title3',
 					to: '',
-					background: '',
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 				{
 					title: 'title3',
 					to: '',
-					background: '',
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: '',
+					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
 				},
 			],
 		};
