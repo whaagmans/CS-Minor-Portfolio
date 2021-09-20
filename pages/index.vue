@@ -61,67 +61,7 @@ export default {
 					title: 'Cryptography',
 					to: 'tasks/cryptography',
 					background: require('~/assets/img/undraw_mathematics.svg'),
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
-				},
-				{
-					title: 'title3',
-					to: '',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
-				},
+				}
 			],
 		};
 	},
