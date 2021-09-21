@@ -53,8 +53,10 @@ export default {
     '@nuxtjs/pwa',
     // https://firebase.nuxtjs.org
     '@nuxtjs/firebase',
-
+    // https://www.npmjs.com/package/@nuxtjs/toast
     '@nuxtjs/toast',
+    // https://www.npmjs.com/package/cookie-universal-nuxt
+    'cookie-universal-nuxt',
   ],
 
   toast: {
@@ -93,7 +95,6 @@ export default {
   vuetify: {
     customVariables: ['~/assets/scss/variables.scss'],
     theme: {
-      dark: true,
       themes: {
         dark: {
           primary: colors.blue.darken2,

@@ -1,5 +1,5 @@
 <template>
-	<v-app dark>
+	<v-app>
 		<v-navigation-drawer v-model="drawer" fixed app>
 			<v-list>
 				<v-list-item
@@ -96,6 +96,7 @@ export default {
 	methods: {
 		themeSwitch() {
 			this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
+			this.$cookies.set('csmp_darkMode', this.$vuetify.theme.dark);
 		},
 	},
 };
