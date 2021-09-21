@@ -61,8 +61,13 @@ export default {
 					title: 'Cryptography',
 					to: 'tasks/cryptography',
 					background: require('~/assets/img/undraw_mathematics.svg'),
-				}
+				},
 			],
+		};
+	},
+	head() {
+		return {
+			title: 'Home',
 		};
 	},
 };

@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		<embed style="aspect-ratio:1/1" src="/TICT_Quickscan.pdf" width="100%" />
+		<embed style="aspect-ratio: 1/1" src="/TICT_Quickscan.pdf" width="100%" />
 	</v-container>
 </template>
 
@@ -9,6 +9,11 @@ export default {
 	data() {
 		return {
 			windowHeight: null,
+		};
+	},
+	head() {
+		return {
+			title: 'TICT',
 		};
 	},
 };
