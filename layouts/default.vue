@@ -93,6 +93,12 @@ export default {
 			title: 'CS Minor',
 		};
 	},
+	created() {
+		const darkMode = this.$cookies.get('csmp_darkMode');
+		if (darkMode !== null) {
+			this.$vuetify.theme.dark = darkMode;
+		}
+	},
 	methods: {
 		themeSwitch() {
 			this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
