@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		<Theorie />
+		<Theory />
 		<v-divider class="my-12"></v-divider>
 		<v-lazy>
 			<TfaDemo />
@@ -10,9 +10,9 @@
 
 <script>
 import TfaDemo from '~/components/Two-Factor/TfaDemo.vue';
-import Theorie from '~/components/Two-Factor/Theory.vue';
+import Theory from '~/components/Two-Factor/Theory.vue';
 export default {
-	components: { TfaDemo, Theorie },
+	components: { TfaDemo, Theory },
 	head() {
 		return {
 			title: '2FA',
