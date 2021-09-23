@@ -3,16 +3,16 @@
 		<Theorie />
 		<v-divider class="my-12"></v-divider>
 		<v-lazy>
-			<tfaDemo />
+			<TfaDemo />
 		</v-lazy>
 	</v-container>
 </template>
 
 <script>
-import tfaDemo from '~/components/Two-Factor/tfaDemo.vue';
+import TfaDemo from '~/components/Two-Factor/TfaDemo.vue';
 import Theorie from '~/components/Two-Factor/Theory.vue';
 export default {
-	components: { tfaDemo, Theorie },
+	components: { TfaDemo, Theorie },
 	head() {
 		return {
 			title: '2FA',
