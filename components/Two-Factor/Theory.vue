@@ -123,16 +123,64 @@
 			units is costly. And users find their size makes them easy to lose or
 			misplace. Most importantly, they are not entirely safe from being hacked.
 		</p>
-		<p class="wi"></p>
 		<h3 class="text-h5 mb-4">SMS Text-Message and Voice-based</h3>
-
+		<p>
+			SMS-based 2FA communicates with a user's phone directly. The site provides
+			the user a one-time passcode (OTP) through a text message after obtaining
+			their login and password. After that, much like with the hardware token,
+			the user must re-enter the OTP into the application to gain access.
+			Voice-based 2FA works similarly, automatically dialing a user and audibly
+			delivering the 2FA code. It is still used in nations where cellphones are
+			expensive or where cell connection is inadequate, despite its rarity.
+		</p>
+		<p>
+			For a low-risk online activity, text or voice authentication may be
+			sufficient. However, this degree of 2FA may not be sufficient for websites
+			that retain your personal information, such as utility providers, banks,
+			or email accounts. SMS is widely regarded as the least secure method of
+			user authentication. As a result, many businesses are strengthening their
+			security by shifting away from SMS-based two-factor authentication.
+		</p>
 		<h3 class="text-h5 mb-4">Software Tokens</h3>
+		<p>
+			A software-generated time-based, one-time passcode (also known as TOTP, or
+			"soft-token") is the most popular kind of two-factor authentication (and a
+			preferred alternative to SMS and voice).
+		</p>
+		<p>
+			A user must first download and install a free two-factor authentication
+			program on their smartphone or computer. The app can then be used with any
+			site that accepts this type of authentication. The user first enters a
+			login and password, and then, when prompted, the code displayed on the app
+			is entered. Soft tokens, like hardware tokens, are often valid for less
+			than a minute. Soft-tokens further eliminate the possibility of hacker
+			eavesdropping because the code is created and shown on the same device.
+			With SMS or voice transmission techniques, this is a major worry.
+		</p>
 		<h4 class="text-h6 mb-1">One Time Passwords</h4>
 		<h5 class="text-subtitle-1 font-weight-bold">OTP</h5>
 		<h5 class="text-subtitle-1 font-weight-bold">TOTP</h5>
 		<h5 class="text-subtitle-1 font-weight-bold">HOTP</h5>
 		<p></p>
 		<h3 class="text-h4 mb-4">Push Notification</h3>
+		<p>
+			Instead of relying on the user receiving and entering a 2FA token,
+			websites and applications can now send a push notification to the user
+			when an authentication attempt is made. The owner of the device simply
+			views the information and can authorize or refuse access with a simple
+			tap. It's a passwordless authentication system that doesn't require any
+			codes or additional interaction.
+		</p>
+		<p>
+			Push notification removes phishing, man-in-the-middle attacks, and
+			unauthorized access by establishing a direct and secure connection between
+			the store, the 2FA service, and the device. However, it can only be used
+			with an internet-connected device that can run apps. SMS-based 2FA may
+			also be a preferable fallback in places where smartphone penetration is
+			low or the internet is intermittent. Push notifications, on the other
+			hand, are a more user-friendly and secure type of security when it is
+			available.
+		</p>
 	</v-container>
 </template>
 
