@@ -30,11 +30,12 @@
 			</template>
 		</v-navigation-drawer>
 		<v-app-bar elevate-on-scroll fixed app>
-			<v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+			<v-app-bar-nav-icon aria-label="Open Drawer" @click.stop="drawer = !drawer" />
 			<v-toolbar-title v-text="title" />
 			<v-spacer />
 			<v-btn
 				id="btnThemeSwitch"
+				aria-label="Switch Theme"
 				class="mr-4"
 				:ripple="false"
 				icon
