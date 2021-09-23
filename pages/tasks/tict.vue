@@ -1,6 +1,12 @@
 <template>
 	<v-container>
-		<embed style="aspect-ratio: 1/1" src="/TICT_Quickscan.pdf" width="100%" />
+		<iframe
+			title="TICT PDF file"
+			style="aspect-ratio: 1/1"
+			src="/TICT_Quickscan.pdf"
+			width="100%"
+		>
+		</iframe>
 	</v-container>
 </template>
 
