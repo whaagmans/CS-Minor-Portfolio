@@ -18,7 +18,7 @@
 		<SmsTokens />
 		<SoftwareTokens />
 		<OneTimePasswords />
-		<PushNotications />
+		<PushNotifications />
 	</v-container>
 </template>
 
@@ -26,7 +26,7 @@
 import HardwareTokens from './article/HardwareTokens.vue';
 import OneTimePasswords from './article/OneTimePasswords.vue';
 import ProsCons from './article/ProsCons.vue';
-import PushNotications from './article/PushNotications.vue';
+import PushNotifications from './article/PushNotifications.vue';
 import SmsTokens from './article/SmsTokens.vue';
 import SoftwareTokens from './article/SoftwareTokens.vue';
 export default {
@@ -36,12 +36,11 @@ export default {
 		SmsTokens,
 		SoftwareTokens,
 		OneTimePasswords,
-		PushNotications,
+		PushNotifications,
 	},
 };
 </script>
 
 
-<s,
-PushNoticationstyle>
+<style>
 </style>

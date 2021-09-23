@@ -1,12 +1,12 @@
 <template>
 	<v-container>
 		<iframe
-			title="TICT PDF file"
+			title="TICT PDF"
 			style="aspect-ratio: 1/1"
 			src="/TICT_Quickscan.pdf"
 			width="100%"
-		>
-		</iframe>
+		></iframe
+		>>
 	</v-container>
 </template>
 
