@@ -88,6 +88,10 @@ export default {
       short_name: 'CSM',
       lang: 'en',
       theme_color: '#121212',
+      background_color: '#121212',
+    },
+    icon: {
+      fileName: 'cs-minor-icon.png',
     },
   },
 
