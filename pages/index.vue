@@ -26,7 +26,7 @@
 					<v-img
 						height="160px"
 						contain
-						:src="item.background"
+						:src="`/image/cards/${item.background}`"
 						dark
 						class="pb-3"
 					>
@@ -45,22 +45,22 @@ export default {
 				{
 					title: 'Two Factor Authentication',
 					to: 'tasks/two-factor-authentication',
-					background: require('~/assets/img/undraw_two_factor_authentication.svg'),
+					background: 'undraw_two_factor_authentication.svg',
 				},
 				{
 					title: 'Technology Impact Cycle Tool',
 					to: 'tasks/tict',
-					background: require('~/assets/img/undraw_Sorting_thoughts.svg'),
+					background: 'undraw_Sorting_thoughts.svg',
 				},
 				{
 					title: 'Threat analysis',
 					to: 'tasks/threat-analysis',
-					background: require('~/assets/img/undraw_file_analysis.svg'),
+					background: 'undraw_file_analysis.svg',
 				},
 				{
 					title: 'Cryptography',
 					to: 'tasks/cryptography',
-					background: require('~/assets/img/undraw_mathematics.svg'),
+					background: 'undraw_mathematics.svg',
 				},
 			],
 		};
