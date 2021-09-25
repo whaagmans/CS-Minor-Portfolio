@@ -1,7 +1,8 @@
 # CS-Minor-Portfolio
+[![CodeScene Code Health](https://codescene.io/projects/18892/status-badges/code-health)](https://codescene.io/projects/18892) 
+[![CodeScene System Mastery](https://codescene.io/projects/18892/status-badges/system-mastery)](https://codescene.io/projects/18892)
 
 ## Build Setup
-
 ```bash
 # install dependencies
 $ npm install
