@@ -34,7 +34,6 @@ export default {
   components: true,
 
   serverMiddleware: {},
-
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
@@ -42,15 +41,13 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
     // https://google-analytics.nuxtjs.org
-    // '@nuxtjs/google-analytics',
+    '@nuxtjs/google-analytics',
+    // https://go.nuxtjs.dev/pwa
+    '@nuxtjs/pwa',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/axios
-    // '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
-    // '@nuxtjs/pwa',
     // https://firebase.nuxtjs.org
     '@nuxtjs/firebase',
     // https://www.npmjs.com/package/@nuxtjs/toast
@@ -79,21 +76,21 @@ export default {
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  // axios: {},
+  axios: {},
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
-  // pwa: {
-  //   manifest: {
-  //     name: 'CS Minor',
-  //     short_name: 'CSM',
-  //     lang: 'en',
-  //     theme_color: '#121212',
-  //     background_color: '#121212',
-  //   },
-  //   icon: {
-  //     fileName: 'cs-minor-icon.png',
-  //   },
-  // },
+  pwa: {
+    manifest: {
+      name: 'CS Minor',
+      short_name: 'CSM',
+      lang: 'en',
+      theme_color: '#121212',
+      background_color: '#121212',
+    },
+    icon: {
+      fileName: 'cs-minor-icon.png',
+    },
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
@@ -113,10 +110,12 @@ export default {
     },
   },
 
-  // googleAnalytics: {
-  //   id: process.env.GOOGLE_ANALYTICS_ID,
-  // },
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID,
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extractCSS: true
+  },
 };

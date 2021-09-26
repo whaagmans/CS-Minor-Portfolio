@@ -187,3 +187,5 @@ yarn-error.log
 ./MyDataBase.json
 
 static/sw.js
+
+.vercel

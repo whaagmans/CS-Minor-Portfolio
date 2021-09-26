@@ -20,8 +20,9 @@
         },
         {
             "src": "/sw.js",
+            "continue": true,
             "headers": {
-                "cache-control": "public, max-age=43200, immutable",
+                "Cache-Control": "public, max-age=0, must-revalidate",
                 "Service-Worker-Allowed": "/"
             }
         }

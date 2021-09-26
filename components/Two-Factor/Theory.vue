@@ -41,7 +41,5 @@ export default {
 };
 </script>
 
-
-
-HardwareTokens<style>
+<style>
 </style>

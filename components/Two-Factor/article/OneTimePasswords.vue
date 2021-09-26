@@ -53,7 +53,7 @@
 				max-width="800px"
 				height="100%"
 				width="100%"
-				src="/image/article_img/hotp.png"
+				src="/image/article_img/hotp.webp"
 			>
 			</v-img>
 		</v-container>
@@ -74,7 +74,7 @@
 				max-width="800px"
 				height="100%"
 				width="100%"
-				src="/image/article_img/totp.png"
+				src="/image/article_img/totp.webp"
 			>
 			</v-img>
 		</v-container>
