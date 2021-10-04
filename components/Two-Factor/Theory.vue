@@ -18,7 +18,12 @@
 <script>
 export default {
 	async asyncData({ $content }) {
+		try{
 		return await $content('Two-Factor').fetch();
+		}
+		catch(err){
+
+		}
 	},
 };
 </script>

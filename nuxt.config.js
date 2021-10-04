@@ -55,8 +55,14 @@ export default {
     // https://www.npmjs.com/package/cookie-universal-nuxt
     'cookie-universal-nuxt',
     // https://content.nuxtjs.org/
-    '@nuxt/content'
+    '@nuxt/content',
+    // https://sentry.nuxtjs.org/
+    '@nuxtjs/sentry'
   ],
+
+  sentry: {
+    dsn: process.env.SENTRY_DSN,
+  },
 
   content: {},
 
