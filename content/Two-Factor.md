@@ -8,7 +8,7 @@ needs two different forms of identification to gain access to something.
 Two-factor authentication can be used to make an online account, a
 smartphone, or even a door more secure. Before anything that is being
 secured may be accessed, 2FA requires two forms of information from the
-user—a password or personal identification number (PIN), a code given to
+user a password or personal identification number (PIN), a code given to
 the user's smartphone, or a fingerprint.
 
 ## Pros and Cons of 2FA
