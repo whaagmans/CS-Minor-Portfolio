@@ -61,12 +61,14 @@ export default {
   ],
 
   sentry: {
-    dsn: process.env.SENTRY_DSN,
+    dsn: process.env.SENTRY_DSN || '',
     tracing: true,
     browserOptions: {}
   },
 
-  content: {},
+  content: {
+    liveEdit: false
+  },
 
   toast: {
     position: 'bottom-center',
@@ -123,7 +125,7 @@ export default {
   },
 
   googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID
+    id: process.env.GOOGLE_ANALYTICS_ID || ''
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
