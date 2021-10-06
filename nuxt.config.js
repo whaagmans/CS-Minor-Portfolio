@@ -57,7 +57,9 @@ export default {
     // https://content.nuxtjs.org/
     '@nuxt/content',
     // https://sentry.nuxtjs.org/
-    '@nuxtjs/sentry'
+    '@nuxtjs/sentry',
+    // https://sitemap.nuxtjs.org/
+    '@nuxtjs/sitemap'
   ],
 
   sentry: {
