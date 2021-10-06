@@ -62,15 +62,7 @@ export default {
 
   sentry: {
     dsn: process.env.SENTRY_DSN,
-    tracesSampleRate: 1.0,
-    vueOptions: {
-      tracing: true,
-      tracingOptions: {
-        hooks: ['mount', 'update'],
-        timeout: 2000,
-        trackComponents: true
-      }
-    },
+    tracing: true,
     browserOptions: {}
   },
 
