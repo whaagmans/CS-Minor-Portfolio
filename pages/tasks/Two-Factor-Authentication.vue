@@ -34,4 +34,52 @@ export default {
 </script>
 
 <style>
+.nuxt-content h1 {
+	font-weight: 300;
+	font-size: 6rem;
+	letter-spacing: 0.015625em;
+}
+
+.nuxt-content h2 {
+	font-weight: 300;
+	font-size: 3.75rem;
+	letter-spacing: 0.0083333333em;
+}
+
+.nuxt-content h3 {
+	font-weight: 400;
+	font-size: 3rem;
+	letter-spacing: normal;
+}
+
+.nuxt-content h4 {
+	font-weight: 400;
+	font-size: 2.125rem;
+	letter-spacing: .0073529412em;
+}
+
+.nuxt-content h5 {
+	font-weight: 400;
+	font-size: 1.5rem;
+	letter-spacing: normal;
+}
+
+.nuxt-content h6 {
+	font-weight: 500;
+	font-size: 1.25rem;
+	letter-spacing: 0.0125em;
+}
+
+.nuxt-content p {
+	font-weight: 400;
+	font-size: 1rem;
+	letter-spacing: 0.03125em;
+}
+
+img {
+	max-width: 800px;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+}
 </style>
