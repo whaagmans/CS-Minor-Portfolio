@@ -66,7 +66,9 @@ export default {
     browserOptions: {}
   },
 
-  content: {},
+  content: {
+    liveEdit: false
+  },
 
   toast: {
     position: 'bottom-center',

@@ -1,6 +1,10 @@
 <template>
 	<v-container>
-		<Theory />
+		<h1 class="text-h1">{{ article.title }}</h1>
+		<br />
+		<article>
+			<nuxt-content :document="article"></nuxt-content>
+		</article>
 		<v-divider class="my-12"></v-divider>
 		<v-lazy>
 			<TfaDemo />
@@ -10,9 +14,17 @@
 
 <script>
 import TfaDemo from '~/components/Two-Factor/TfaDemo.vue';
-import Theory from '~/components/Two-Factor/Theory.vue';
 export default {
-	components: { TfaDemo, Theory },
+	components: { TfaDemo },
+	async asyncData({ $content, $sentry, error }) {
+		const article = await $content('Two-Factor')
+			.fetch()
+			.catch((err) => {
+				error({ statusCode: 404, message: 'Article not found!' });
+				$sentry.captureException(err);
+			});
+		return { article };
+	},
 	head() {
 		return {
 			title: '2FA',
