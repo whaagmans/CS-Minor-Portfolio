@@ -30,7 +30,7 @@ still only one kind of security.
 
 Furthermore, more secure methods of accessing personal information, such
 as a speech recognition device, are only one layer that must be
-compromised.
+compromised. [OneLogin, z.d.](#references)
 
 #### Variation
 
@@ -220,3 +220,11 @@ also be a preferable fallback in places where smartphone penetration is
 low or the internet is intermittent. Push notifications, on the other
 hand, are a more user-friendly and secure type of security when it is
 available.
+
+## References
+
+1. OneLogin. (z.d.). OTP, TOTP, HOTP: What’s the difference? Geraadpleegd op 7 oktober 2021, van [https://www.onelogin.com/learn/otp-totp-hotp](https://www.onelogin.com/learn/otp-totp-hotp)
+2. OneLogin. (z.d.). OTP, TOTP, HOTP: What’s the difference? Geraadpleegd op 7 oktober 2021, van [https://www.onelogin.com/learn/otp-totp-hotp](https://www.onelogin.com/learn/otp-totp-hotp)
+3. OneLogin. (z.d.). OTP, TOTP, HOTP: What’s the difference? Geraadpleegd op 7 oktober 2021, van [https://www.onelogin.com/learn/otp-totp-hotp](https://www.onelogin.com/learn/otp-totp-hotp)
+4. OneLogin. (z.d.). OTP, TOTP, HOTP: What’s the difference? Geraadpleegd op 7 oktober 2021, van [https://www.onelogin.com/learn/otp-totp-hotp](https://www.onelogin.com/learn/otp-totp-hotp)
+
