@@ -21,7 +21,7 @@
     "@nuxtjs/vuetify": "^1.12.1",
     "@sentry/tracing": "^6.13.3",
     "cookie-universal-nuxt": "^2.1.5",
-    "core-js": "^3.18.2",
+    "core-js": "^3.18.3",
     "nuxt": "^2.15.8",
     "qrcode": "^1.4.4",
     "speakeasy": "^2.0.0",
