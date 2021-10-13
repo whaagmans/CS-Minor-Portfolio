@@ -38,6 +38,6 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.19.1",
     "firebase": "^8.10.0",
-    "vuetify": "^2.5.9"
+    "vuetify": "^2.5.10"
   }
 }
