@@ -2,7 +2,7 @@
 title: Cryptography
 ---
 
-## ALU
+## ALU in relation to cryptography
 
 ### Energy consumption with ALU
 
