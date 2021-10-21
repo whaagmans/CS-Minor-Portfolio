@@ -21,7 +21,7 @@
     "@nuxtjs/vuetify": "^1.12.1",
     "@sentry/tracing": "^6.13.3",
     "cookie-universal-nuxt": "^2.1.5",
-    "core-js": "^3.18.2",
+    "core-js": "^3.18.3",
     "nuxt": "^2.15.8",
     "qrcode": "^1.4.4",
     "speakeasy": "^2.0.0",
@@ -36,8 +36,8 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-vue": "^7.19.1",
+    "eslint-plugin-vue": "^7.20.0",
     "firebase": "^8.10.0",
-    "vuetify": "^2.5.9"
+    "vuetify": "^2.5.10"
   }
 }
