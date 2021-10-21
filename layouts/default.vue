@@ -72,8 +72,8 @@ export default {
 				},
 				{
 					icon: 'mdi-book-open-page-variant-outline',
-					title: '2FA',
-					to: '/tasks/two-factor-authentication',
+					title: 'MFA',
+					to: '/tasks/mfa-authentication',
 				},
 				{
 					icon: 'mdi-book-open-page-variant-outline',
