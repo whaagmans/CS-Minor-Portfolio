@@ -21,22 +21,22 @@
     "@nuxtjs/vuetify": "^1.12.1",
     "@sentry/tracing": "^6.13.3",
     "cookie-universal-nuxt": "^2.1.5",
-    "core-js": "^3.18.3",
+    "core-js": "^3.19.0",
     "nuxt": "^2.15.8",
     "qrcode": "^1.4.4",
     "speakeasy": "^2.0.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.15.8",
-    "@nuxtjs/eslint-config": "^6.0.1",
+    "@babel/eslint-parser": "^7.16.0",
+    "@nuxtjs/eslint-config": "^7.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "eslint": "^7.32.0",
+    "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-vue": "^7.20.0",
+    "eslint-plugin-nuxt": "^3.0.0",
+    "eslint-plugin-vue": "^8.0.3",
     "firebase": "^8.10.0",
     "vuetify": "^2.5.10"
   }
