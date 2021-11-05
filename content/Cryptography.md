@@ -51,6 +51,20 @@ The simplest and the original implementation of the protocol uses the multiplica
 
 ## AES + block cipher
 
+### AES
+
+The Advanced Encryption Standard (AES) is the most popular and commonly used symmetric encryption algorithm available today (AES). It is at least six times faster than triple DES in terms of discovery.
+
+Because the key size of DES was too small, a replacement was required. It was thought to be vulnerable to an exhaustive key search assault as processing power increased. Triple DES was created to address this flaw, however it was proven to be sluggish.
+
+#### AES Operation
+
+Rather than being a Feistel cipher, AES is an iterative cipher. It is built based on a ‘substitution–permutation network.' It consists of a sequence of connected processes, some of which require substituting specified outputs for inputs (substitutions) and others involving shuffling bits around (permutations).
+
+Surprisingly, AES uses bytes rather than bits for all of its calculations. As a result, AES considers a plaintext block's 128 bits as 16 bytes. For matrix processing, these 16 bytes are organized into four columns and four rows.
+
+In contrast to DES, the number of rounds in AES is configurable and dependent on the key length. For 128-bit keys, AES employs 10 rounds, 12 rounds for 192-bit keys, and 14 rounds for 256-bit keys. Each of these rounds use a unique 128-bit round key derived from the original AES key.
+
 ## 3DES
 
 ## Rijndaal block cipher
