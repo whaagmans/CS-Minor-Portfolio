@@ -223,4 +223,4 @@ available.
 
 ## References
 
-1. OneLogin. (n.d.). OTP, TOTP, HOTP: What's the difference? Retrieved October 7, 2021, from [https://www.onelogin.com/learn/otp-totp-hotp](https://www.onelogin.com/learn/otp-totp-hotp)
+1. OneLogin. (z.d.). OTP, TOTP, HOTP: What’s the difference? Geraadpleegd op 7 oktober 2021, van [https://www.onelogin.com/learn/otp-totp-hotp](https://www.onelogin.com/learn/otp-totp-hotp)

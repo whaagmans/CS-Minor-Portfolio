@@ -2,7 +2,7 @@
 title: Cryptography
 ---
 
-## Cartographical calculation
+## Cryptographical calculation
 
 ### ALU (Arithmetic Logic Unit)
 
@@ -20,6 +20,10 @@ It's relatively simple to generate a huge prime number in terms of computation. 
 
 Okay, the result of multiplying these two primes together is 589. Multiplying two integers is, after all, a mathematically simple task that scales nicely when dealing with larger numbers. **Factoring** numbers, on the other hand, is a computationally tough issue. When dealing with smaller numbers, it's simple, but when dealing with enormous numbers, it can take computers days, months, years, or even centuries to solve. Factoring numbers is a trial-and-error procedure with no fast shortcuts. You'd have to attempt all of the prime numbers that are smaller than 589 until you discovered which prime numbers add up to 589 when multiplied together. This works for smaller numbers, but when dealing with really large numbers, the number of possible numbers to compare gets so large that even current computers are unable to do so in a reasonable length of time.
 
+### Frequency distribution
+
+
+
 ## Diffie Hellman
 
 Diffie-Hellman is a method of generating a shared secret between two persons that cannot be seen by watching their communication. It's vital to note that throughout the key exchange, you're not sharing information; instead, you're working together to create a key.
@@ -34,20 +38,16 @@ However, despite the fact that it is based on the same principles as public-key 
 
 The simplest and the original implementation of the protocol uses the multiplicative group of integers modulo p, where p is prime, and g is a primitive root modulo p. These two values are chosen in this way to ensure that the resulting shared secret can take on any value from 1 to p–1. Here is an example of the protocol, with non-secret values in blue, and secret values in red.<sup>[(1)](#references)</sup>
 
-1. Alice and Bob publicly agree to use a modulus p = 23 and base g = 5 (which is a primitive root modulo 23).
-2. Alice chooses a secret integer a = 4, then sends Bob A = ga mod p
-    - A = 54 mod 23 = 4
-3. Bob chooses a secret integer b = 3, then sends Alice B = gb mod p
-    - B = 53 mod 23 = 10
-4. Alice computes s = Ba mod p
-    - s = 104 mod 23 = 18
-5. Bob computes s = Ab mod p
-    - s = 43 mod 23 = 18
+1. Alice and Bob publicly agree to use a modulus *p* = 23 and base *g* = 5 (which is a primitive root modulo 23).
+2. Alice chooses a secret integer *a* = 4, then sends Bob *A* = *g<sup>a</sup>* mod *p*
+    - *A* = 54 mod 23 = 4
+3. Bob chooses a secret integer *b* = 3, then sends Alice *B* = *g<sup>b</sup>* mod *p*
+    - *B* = 53 mod 23 = 10
+4. Alice computes s = *B<sup>a</sup>* mod *p*
+    - *s* = 104 mod 23 = 18
+5. Bob computes s = *A<sup>b</sup>* mod *p*
+    - *s* = 43 mod 23 = 18ss
 6. Alice and Bob now share a secret (the number 18).
-
-## Power usage for decrypting passwords low when has key, yet lot of effort without key
-
-## freq distribution
 
 ## AES + block cipher
 
