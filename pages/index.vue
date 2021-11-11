@@ -43,8 +43,8 @@ export default {
 		return {
 			items: [
 				{
-					title: 'Two Factor Authentication',
-					to: 'tasks/two-factor-authentication',
+					title: 'Multi-Factor Authentication',
+					to: 'tasks/mfa-authentication',
 					background: 'undraw_two_factor_authentication.svg',
 				},
 				{

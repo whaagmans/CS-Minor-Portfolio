@@ -1,5 +1,5 @@
 ---
-title: Two-Factor Authentication
+title: MFA Authentication
 ---
 
 Two-factor authentication (also known as 2FA) is a security mechanism that
@@ -30,7 +30,7 @@ still only one kind of security.
 
 Furthermore, more secure methods of accessing personal information, such
 as a speech recognition device, are only one layer that must be
-compromised. [OneLogin, z.d.](#references)
+compromised<sup>[(1)](#references)</sup>.
 
 #### Variation
 
@@ -224,7 +224,3 @@ available.
 ## References
 
 1. OneLogin. (z.d.). OTP, TOTP, HOTP: What’s the difference? Geraadpleegd op 7 oktober 2021, van [https://www.onelogin.com/learn/otp-totp-hotp](https://www.onelogin.com/learn/otp-totp-hotp)
-2. OneLogin. (z.d.). OTP, TOTP, HOTP: What’s the difference? Geraadpleegd op 7 oktober 2021, van [https://www.onelogin.com/learn/otp-totp-hotp](https://www.onelogin.com/learn/otp-totp-hotp)
-3. OneLogin. (z.d.). OTP, TOTP, HOTP: What’s the difference? Geraadpleegd op 7 oktober 2021, van [https://www.onelogin.com/learn/otp-totp-hotp](https://www.onelogin.com/learn/otp-totp-hotp)
-4. OneLogin. (z.d.). OTP, TOTP, HOTP: What’s the difference? Geraadpleegd op 7 oktober 2021, van [https://www.onelogin.com/learn/otp-totp-hotp](https://www.onelogin.com/learn/otp-totp-hotp)
-
