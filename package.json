@@ -22,6 +22,8 @@
     "@sentry/tracing": "^6.13.3",
     "cookie-universal-nuxt": "^2.1.5",
     "core-js": "^3.19.0",
+    "crypto-js": "^4.1.1",
+    "luxon": "^2.1.1",
     "nuxt": "^2.15.8",
     "qrcode": "^1.4.4",
     "speakeasy": "^2.0.0",
