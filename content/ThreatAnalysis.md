@@ -104,7 +104,7 @@ Each threat is a violation of a desirable property for a system:
 
 ## Attack Trees
 
-
+Attack trees are multi-leveled diagrams consisting of one root, leaves, and children. From the bottom up, child nodes are conditions which must be satisfied to make the direct parent node true. Each attack described in a node may require many attacks described in child nodes to be satisfied. Attack trees are related to the established fault tree formalism. Fault tree methodology employs  gate conditions when parent nodes are satisfied by leaf nodes.
 
 ## References
 
