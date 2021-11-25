@@ -62,6 +62,11 @@ export default {
 					to: 'tasks/cryptography',
 					background: 'undraw_mathematics.svg',
 				},
+				{
+					title: 'Captcha',
+					to: 'tasks/captcha',
+					background: 'undraw_check_boxes.svg'
+				}
 			],
 		};
 	},

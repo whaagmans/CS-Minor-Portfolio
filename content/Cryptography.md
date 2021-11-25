@@ -38,7 +38,7 @@ The simplest and the original implementation of the protocol uses the multiplica
 3. Bob chooses a secret integer *b* = 3, then sends Alice *B* = *g<sup>b</sup>* mod *p*
     - *B* = 53 mod 23 = 10
 4. Alice computes s = *B<sup>a</sup>* mod *p*
-    - *s* = 104 mod 23 = 18
+    - *s* = 10<sup>4</sup> mod 23 = 18
 5. Bob computes s = *A<sup>b</sup>* mod *p*
     - *s* = 43 mod 23 = 18ss
 6. Alice and Bob now share a secret (the number 18).
