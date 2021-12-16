@@ -77,6 +77,16 @@ export default {
 					to: 'tasks/captcha',
 					background: 'undraw_check_boxes.svg',
 				},
+				{
+					title: 'GDPR',
+					to: 'tasks/captcha',
+					background: 'undraw_check_boxes.svg',
+				},
+				{
+					title: 'AVG',
+					to: 'tasks/captcha',
+					background: 'undraw_check_boxes.svg',
+				},
 			],
 		};
 	},
