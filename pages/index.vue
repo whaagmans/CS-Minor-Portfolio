@@ -65,8 +65,18 @@ export default {
 				{
 					title: 'Captcha',
 					to: 'tasks/captcha',
-					background: 'undraw_check_boxes.svg'
-				}
+					background: 'undraw_check_boxes.svg',
+				},
+				{
+					title: 'Security By Design',
+					to: 'tasks/captcha',
+					background: 'undraw_check_boxes.svg',
+				},
+				{
+					title: 'Secure Development life cycle',
+					to: 'tasks/captcha',
+					background: 'undraw_check_boxes.svg',
+				},
 			],
 		};
 	},
