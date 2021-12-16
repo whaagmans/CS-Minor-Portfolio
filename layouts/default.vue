@@ -90,6 +90,11 @@ export default {
 					title: 'Threat Analysis',
 					to: '/tasks/threat-analysis',
 				},
+				{
+					icon: 'mdi-book-open-page-variant-outline',
+					title: 'Captcha',
+					to: '/tasks/captcha',
+				},
 			],
 			miniVariant: false,
 			right: true,
