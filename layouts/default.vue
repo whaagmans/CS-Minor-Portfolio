@@ -95,6 +95,11 @@ export default {
 					title: 'Captcha',
 					to: '/tasks/captcha',
 				},
+				{
+					icon: 'mdi-book-open-page-variant-outline',
+					title: 'GDPR',
+					to: '/tasks/gdpr',
+				},
 			],
 			miniVariant: false,
 			right: true,

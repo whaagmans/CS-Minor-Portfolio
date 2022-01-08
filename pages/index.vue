@@ -79,7 +79,7 @@ export default {
 				},
 				{
 					title: 'GDPR',
-					to: 'tasks/captcha',
+					to: 'tasks/gdpr',
 					background: 'undraw_check_boxes.svg',
 				},
 				{
