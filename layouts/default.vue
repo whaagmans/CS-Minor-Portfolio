@@ -100,6 +100,11 @@ export default {
 					title: 'GDPR',
 					to: '/tasks/gdpr',
 				},
+				{
+					icon: 'mdi-book-open-page-variant-outline',
+					title: 'ICT-Article',
+					to: '/tasks/ICT-Article',
+				},
 			],
 			miniVariant: false,
 			right: true,

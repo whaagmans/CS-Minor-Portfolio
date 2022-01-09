@@ -87,6 +87,11 @@ export default {
 					to: 'tasks/captcha',
 					background: 'undraw_check_boxes.svg',
 				},
+				{
+					title: 'ICT Article (professional writing)',
+					to: 'tasks/ICT-Article',
+					background: 'undraw_check_boxes.svg',
+				},
 			],
 		};
 	},
