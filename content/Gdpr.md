@@ -13,7 +13,7 @@ Multiple aspects are necessary to be GDPR compliant. These include[[1]](#referen
 * Data security
 * Accountability and governance
 * Privacy rights
-Each of these topics consists of a few points that an organization must meet to comply with the GDPR. Only when an organization complies with all of the points mentioned below (if applicable) are they fully GDPR compliant.
+Each of these topics consists of a few points that an organization must meet to comply with the GDPR. When an organization complies with all of the points mentioned below (if applicable), they are fully GDPR compliant.
 
 ### Lawful basis and transparency
 
