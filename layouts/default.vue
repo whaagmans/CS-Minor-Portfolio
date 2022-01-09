@@ -73,7 +73,7 @@ export default {
 				{
 					icon: 'mdi-book-open-page-variant-outline',
 					title: 'MFA',
-					to: '/tasks/mfa-authentication',
+					to: '/tasks/mfa',
 				},
 				{
 					icon: 'mdi-book-open-page-variant-outline',
@@ -104,8 +104,17 @@ export default {
 			miniVariant: false,
 			right: true,
 			rightDrawer: false,
-			title: 'CS Minor',
+			// title: 'CS Minor',
 		};
+	},
+	computed: {
+		title() {
+			let pageName = this.$route.name;
+			if (pageName === 'index') return 'CS Minor';
+			pageName = pageName.substring(6);
+			pageName = pageName.replace('-', ' ');
+			return 'CS Minor' + ' | ' + pageName;
+		},
 	},
 	created() {
 		const darkMode = this.$cookies.get('csmp_darkMode');

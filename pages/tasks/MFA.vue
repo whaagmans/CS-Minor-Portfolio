@@ -1,7 +1,5 @@
 <template>
 	<v-container>
-		<h1 class="text-h1">{{ article.title }}</h1>
-		<br />
 		<article>
 			<nuxt-content :document="article"></nuxt-content>
 		</article>
@@ -17,7 +15,7 @@ import TfaDemo from '~/components/Two-Factor/TfaDemo.vue';
 export default {
 	components: { TfaDemo },
 	async asyncData({ $content, $sentry, error }) {
-		const article = await $content('MFA-Authentication')
+		const article = await $content('MFA')
 			.fetch()
 			.catch((err) => {
 				error({ statusCode: 404, message: 'Article not found!' });

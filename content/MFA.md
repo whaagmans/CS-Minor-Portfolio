@@ -1,5 +1,5 @@
 ---
-title: MFA Authentication
+title: MFA (Multi-Factor Authentication)
 ---
 
 Two-factor authentication (also known as 2FA) is a security mechanism that

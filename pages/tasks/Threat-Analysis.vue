@@ -1,7 +1,5 @@
 <template>
-	<v-container
-		><h1 class="text-h1">{{ article.title }}</h1>
-		<br />
+	<v-container>
 		<article>
 			<nuxt-content :document="article"></nuxt-content>
 		</article>

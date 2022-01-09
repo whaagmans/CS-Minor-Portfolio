@@ -44,7 +44,7 @@ export default {
 			items: [
 				{
 					title: 'Multi-Factor Authentication',
-					to: 'tasks/mfa-authentication',
+					to: 'tasks/mfa',
 					background: 'undraw_two_factor_authentication.svg',
 				},
 				{
