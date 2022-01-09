@@ -110,7 +110,7 @@ export default {
 	computed: {
 		title() {
 			let pageName = this.$route.name;
-			if (pageName === 'index') return 'CS Minor';
+			if (pageName === 'index' || pageName === null) return 'CS Minor';
 			pageName = pageName.substring(6);
 			pageName = pageName.replace('-', ' ');
 			return 'CS Minor' + ' | ' + pageName;
