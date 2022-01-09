@@ -65,32 +65,32 @@ export default {
 				{
 					title: 'Captcha',
 					to: 'tasks/captcha',
-					background: 'undraw_check_boxes.svg',
+					background: 'undraw_robotics.svg',
 				},
 				{
 					title: 'Security By Design',
 					to: 'tasks/captcha',
-					background: 'undraw_check_boxes.svg',
+					background: 'undraw_security_on.svg',
 				},
 				{
 					title: 'Secure Development life cycle',
 					to: 'tasks/captcha',
-					background: 'undraw_check_boxes.svg',
+					background: 'undraw_product_iteration.svg',
 				},
 				{
 					title: 'GDPR',
 					to: 'tasks/gdpr',
-					background: 'undraw_check_boxes.svg',
+					background: 'undraw_gdpr.svg',
 				},
 				{
 					title: 'AVG',
 					to: 'tasks/captcha',
-					background: 'undraw_check_boxes.svg',
+					background: 'undraw_privacy_protection.svg',
 				},
 				{
 					title: 'ICT Article (professional writing)',
 					to: 'tasks/ICT-Article',
-					background: 'undraw_check_boxes.svg',
+					background: 'undraw_online_articles.svg',
 				},
 			],
 		};
