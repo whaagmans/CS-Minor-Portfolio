@@ -102,7 +102,7 @@ export default {
 				},
 				{
 					icon: 'mdi-book-open-page-variant-outline',
-					title: 'ICT-Article',
+					title: 'ICT Article',
 					to: '/tasks/ICT-Article',
 				},
 			],
