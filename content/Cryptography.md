@@ -34,13 +34,13 @@ The simplest and the original implementation of the protocol uses the multiplica
 
 1. Alice and Bob publicly agree to use a modulus *p* = 23 and base *g* = 5 (which is a primitive root modulo 23).
 2. Alice chooses a secret integer *a* = 4, then sends Bob *A* = *g<sup>a</sup>* mod *p*
-    - *A* = 54 mod 23 = 4
+    - *A* = 5<sup>4</sup> mod 23 = 4
 3. Bob chooses a secret integer *b* = 3, then sends Alice *B* = *g<sup>b</sup>* mod *p*
-    - *B* = 53 mod 23 = 10
+    - *B* = 5<sup>3</sup> mod 23 = 10
 4. Alice computes s = *B<sup>a</sup>* mod *p*
     - *s* = 10<sup>4</sup> mod 23 = 18
 5. Bob computes s = *A<sup>b</sup>* mod *p*
-    - *s* = 43 mod 23 = 18ss
+    - *s* = 4<sup>3</sup> mod 23 = 18
 6. Alice and Bob now share a secret (the number 18).
 
 ### AES
