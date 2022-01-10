@@ -83,11 +83,6 @@ export default {
 					background: 'undraw_gdpr.svg',
 				},
 				{
-					title: 'AVG',
-					to: 'tasks/captcha',
-					background: 'undraw_privacy_protection.svg',
-				},
-				{
 					title: 'ICT Article (professional writing)',
 					to: 'tasks/ICT-Article',
 					background: 'undraw_online_articles.svg',
