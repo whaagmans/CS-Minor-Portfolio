@@ -91,5 +91,5 @@ Triple DES systems are much more secure than single DES, but they are unquestion
 ## References
 
 1. Wikipedia contributors. (2021, October 31). Diffie–Hellman key exchange. Wikipedia. Retrieved November 1, 2021, from [https://en.wikipedia.org/wiki/Diffie-Hellman_key_exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
-2. Triple DES. (n.d.). Tutorialspoint. Retrieved November 10, 2021, from [https://www.tutorialspoint.com/cryptography/triple_des.htm](https://www.tutorialspoint.com/cryptography/triple_des.htm)
+2. Triple DES. (n.d.). Tutorialspoint. Retrieved November 10, 2021, from [https://www.tutorialspoint.com/cryptography](https://www.tutorialspoint.com/cryptography/triple_des.htm)
 3. Secure your data with AES-256 encryption. (2019, September 26). Atpinc. Retrieved November 10, 2021, from [https://www.atpinc.com/blog/what-is-aes-256-encryption](https://www.atpinc.com/blog/what-is-aes-256-encryption)
