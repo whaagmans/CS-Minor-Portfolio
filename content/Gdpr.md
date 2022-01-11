@@ -81,14 +81,14 @@ Finally, the customers have the right to ask for human intervention against choi
 
 ## References
 
-1. GDPR.eu. (2019, March 13). GDPR compliance checklist. Retrieved January 5, 2022, from https://gdpr.eu/checklist/
-2. Fogg, S., & Cipp/E, M. C. K. (2021, December 17). What is GDPR? The Basics of the EU's General Data Protection Regulation. Termly. Retrieved January 5, 2022, from https://termly.io/resources/articles/what-is-gdpr/
-3. Wolford, B. (2019, February 22). Data Processing Agreement (Template). GDPR.Eu. Retrieved January 9, 2022, from https://gdpr.eu/data-processing-agreement/
-4. Wolford, B. (2018, November 14). Art. 5 GDPR – Principles relating to processing of personal data. GDPR.Eu. Retrieved January 9, 2022, from https://gdpr.eu/article-5-how-to-process-personal-data/
-5. Wolford, B. (2019b, March 8). Data Protection Impact Assessment (DPIA). GDPR.Eu. Retrieved January 9, 2022, from https://gdpr.eu/data-protection-impact-assessment-template/
-6. Wolford, B. (2019a, February 13). Everything you need to know about the GPDR Data Protection Officer (DPO). GDPR.Eu. Retrieved January 9, 2022, from https://gdpr.eu/data-protection-officer/
-7. Wolford, B. (2020, July 23). Art. 16 GDPR – Right to rectification. GDPR.Eu. Retrieved January 9, 2022, from https://gdpr.eu/article-16-right-to-rectification/
-8. Wolford, B. (2020a, July 23). Art. 15 GDPR – Right of access by the data subject. GDPR.Eu. Retrieved January 9, 2022, from https://gdpr.eu/article-15-right-of-access/
-9. Wolford, B. (2020a, April 24). Everything you need to know about the "Right to be forgotten." GDPR.Eu. Retrieved January 9, 2022, from https://gdpr.eu/right-to-be-forgotten/
-10. Wolford, B. (2018b, November 14). Art. 18 GDPR – Right to restriction of processing. GDPR.Eu. Retrieved January 9, 2022, from https://gdpr.eu/article-18-right-to-restriction-of-processing/
-11. Wolford, B. (2020d, July 23). Art. 21 GDPR – Right to object. GDPR.Eu. Retrieved January 9, 2022, from https://gdpr.eu/article-21-right-to-object/
+1. GDPR.eu. (2019, March 13). GDPR compliance checklist. Retrieved January 5, 2022, from [https://gdpr.eu/checklist/](https://gdpr.eu/checklist/)
+2. Fogg, S., & Cipp/E, M. C. K. (2021, December 17). What is GDPR? The Basics of the EU's General Data Protection Regulation. Termly. Retrieved January 5, 2022, from [https://termly.io/resources/articles/what-is-gdpr/](https://termly.io/resources/articles/what-is-gdpr/)
+3. Wolford, B. (2019, February 22). Data Processing Agreement (Template). GDPR.Eu. Retrieved January 9, 2022, from [https://gdpr.eu/data-processing-agreement/](https://gdpr.eu/data-processing-agreement/)
+4. Wolford, B. (2018, November 14). Art. 5 GDPR – Principles relating to processing of personal data. GDPR.Eu. Retrieved January 9, 2022, from [https://gdpr.eu/article-5-how-to-process-personal-data/](https://gdpr.eu/article-5-how-to-process-personal-data/)
+5. Wolford, B. (2019b, March 8). Data Protection Impact Assessment (DPIA). GDPR.Eu. Retrieved January 9, 2022, from [https://gdpr.eu/data-protection-impact-assessment-template/](https://gdpr.eu/data-protection-impact-assessment-template/)
+6. Wolford, B. (2019a, February 13). Everything you need to know about the GPDR Data Protection Officer (DPO). GDPR.Eu. Retrieved January 9, 2022, from [https://gdpr.eu/data-protection-officer/](https://gdpr.eu/data-protection-officer/)
+7. Wolford, B. (2020, July 23). Art. 16 GDPR – Right to rectification. GDPR.Eu. Retrieved January 9, 2022, from [https://gdpr.eu/article-16-right-to-rectification/](https://gdpr.eu/article-16-right-to-rectification/)
+8. Wolford, B. (2020a, July 23). Art. 15 GDPR – Right of access by the data subject. GDPR.Eu. Retrieved January 9, 2022, from [https://gdpr.eu/article-15-right-of-access/](https://gdpr.eu/article-15-right-of-access/)
+9. Wolford, B. (2020a, April 24). Everything you need to know about the "Right to be forgotten." GDPR.Eu. Retrieved January 9, 2022, from [https://gdpr.eu/right-to-be-forgotten/](https://gdpr.eu/right-to-be-forgotten/)
+10. Wolford, B. (2018b, November 14). Art. 18 GDPR – Right to restriction of processing. GDPR.Eu. Retrieved January 9, 2022, from [https://gdpr.eu/article-18-right-to-restriction-of-processing/](https://gdpr.eu/article-18-right-to-restriction-of-processing/)
+11. Wolford, B. (2020d, July 23). Art. 21 GDPR – Right to object. GDPR.Eu. Retrieved January 9, 2022, from [https://gdpr.eu/article-21-right-to-object/](https://gdpr.eu/article-21-right-to-object/)
