@@ -97,6 +97,16 @@ export default {
 				},
 				{
 					icon: 'mdi-book-open-page-variant-outline',
+					title: 'Security By Design',
+					to: '/tasks/Security-By-Design',
+				},
+				{
+					icon: 'mdi-book-open-page-variant-outline',
+					title: 'SDLC',
+					to: '/tasks/Secure-Development-Life-Cycle',
+				},
+				{
+					icon: 'mdi-book-open-page-variant-outline',
 					title: 'GDPR',
 					to: '/tasks/gdpr',
 				},
@@ -116,8 +126,8 @@ export default {
 		title() {
 			let pageName = this.$route.name;
 			if (pageName === 'index' || pageName === null) return 'CS Minor';
-			pageName = pageName.substring(6);
-			pageName = pageName.replace('-', ' ');
+			pageName = pageName.substring(6); // removes the word tasks- for a clean name in the UI
+			pageName = pageName.replace(/-/g, ' '); // replace all instances of - with a whitespace
 			return 'CS Minor' + ' | ' + pageName;
 		},
 	},
