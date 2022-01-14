@@ -9,7 +9,7 @@
 <script>
 export default {
 	async asyncData({ $content, $sentry, error }) {
-		const article = await $content('ThreatAnalysis')
+		const article = await $content('Threat-Analysis')
 			.fetch()
 			.catch((err) => {
 				error({ statusCode: 404, message: 'Article not found!' });
