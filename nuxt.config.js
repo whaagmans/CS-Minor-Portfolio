@@ -14,7 +14,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Portfolio for my minor in Cyber Security'
+        content: 'Portfolio for my FHICT Cyber Security minor'
       },
       {
         name: 'theme-color',
