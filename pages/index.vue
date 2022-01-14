@@ -69,12 +69,12 @@ export default {
 				},
 				{
 					title: 'Security By Design',
-					to: 'tasks/captcha',
+					to: 'tasks/Security-By-Design',
 					background: 'undraw_security_on.svg',
 				},
 				{
 					title: 'Secure Development life cycle',
-					to: 'tasks/captcha',
+					to: 'tasks/Secure-Development-Life-Cycle',
 					background: 'undraw_product_iteration.svg',
 				},
 				{
