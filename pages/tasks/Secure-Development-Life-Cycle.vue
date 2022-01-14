@@ -26,4 +26,10 @@ export default {
 </script>
 
 <style>
+img {
+	max-width: 800px;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+}
 </style>
