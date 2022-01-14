@@ -19,7 +19,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'GDPR',
+			title: 'Security By Design',
 		};
 	},
 };
