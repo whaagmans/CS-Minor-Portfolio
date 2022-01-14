@@ -4,8 +4,6 @@ title: Secure Development Life Cycle
 
 ### What is a SDLC (Secure Development Life Cycle)
 
-![TOTP-image](/image/article_img/nist_sdlc.png 'TOTP process visualized')
-
 A SDLC, in general, entails incorporating security testing and other activities into an already established development process. Security requirements should be written alongside functional requirements, and an architecture risk analysis should be performed throughout the design phase of the SDLC.
 
 There are several SDLC models in use. Still, one of the most notable is the Microsoft Security Development Lifecycle (MS SDL), which outlines 12 practices that companies can use to improve their software security. NIST also released a Secure Software Development Framework, which focuses on security-related processes that companies may integrate into their existing SDLC.
@@ -61,6 +59,8 @@ Penetration testing is a type of security analysis that involves qualified secur
 An Incident Response Plan is essential for addressing new dangers that may emerge over time. It should be developed in collaboration with its Product Security Incident Response Team (PSIRT). The plan should include whom to contact in the event of a security emergency and the security servicing methodology, including provisions for code inherited from other groups inside the enterprise and third-party code.
 
 ### NIST SDLC
+
+![NIST_SDLC_visualization](/image/article_img/nist_sdlc.png "the five phases of NIST's SDLC visualized in a looping circle")
 
 The National Institute of Standards and Technologies is a non-regulatory government institution that creates technology, metrics, and standards to help U.S.-based science and technology companies innovate and compete more effectively. NIST contributes to this effort by developing standards and guidance to assist federal agencies in meeting the Federal Information Security Management Act's (FISMA) standards.
 
