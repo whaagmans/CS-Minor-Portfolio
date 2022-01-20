@@ -26,7 +26,7 @@ combination of letters, numbers, and special characters, but they are
 still only one kind of security.
 
 Furthermore, more secure methods of accessing personal information, such as a speech recognition device, are only one layer that must be
-compromised<sup>[(1)](#references)</sup>.
+compromised [[1]](#references).
 
 #### Variation
 
@@ -198,3 +198,6 @@ available.
 ## References
 
 1. OneLogin. (n.d.). OTP, TOTP, HOTP: What’s the Difference? Retrieved January 14, 2022, from <https://www.onelogin.com/learn/otp-totp-hotp>
+2. Smith, N. (2018, July 3). HOTP vs TOTP: What's the Difference? Microcosm. Retrieved January 12, 2022, from <https://www.microcosm.com/blog/hotp-totp-what-is-the-difference>
+3. HOTP vs TOTP: Differences and advantages - Arengu Blog. (n.d.). Arengu. Retrieved January 12, 2022, from <https://www.arengu.com/blog/hotp-vs-otp-vs-totp-differences>
+4. Wikipedia contributors. (2022b, January 17). Time-based one-time password. Wikipedia. Retrieved January 12, 2022, from <https://en.wikipedia.org/wiki/Time-based_one-time_password>
