@@ -201,3 +201,5 @@ available.
 2. Smith, N. (2018, July 3). HOTP vs TOTP: What's the Difference? Microcosm. Retrieved January 12, 2022, from <https://www.microcosm.com/blog/hotp-totp-what-is-the-difference>
 3. HOTP vs TOTP: Differences and advantages - Arengu Blog. (n.d.). Arengu. Retrieved January 12, 2022, from <https://www.arengu.com/blog/hotp-vs-otp-vs-totp-differences>
 4. Wikipedia contributors. (2022b, January 17). Time-based one-time password. Wikipedia. Retrieved January 12, 2022, from <https://en.wikipedia.org/wiki/Time-based_one-time_password>
+5. A. (n.d.). Authonet. Authonet. Retrieved January 12, 2022, from <https://www.authonet.com/authentication.php>
+6. Kapodistrias, C. (2021, June 29). All About 2FA: What is OTP, TOTP, and HOTP? Teamstack Blog. Retrieved January 20, 2022, from <https://blog.teamstack.com/all-about-2fa-what-is-otp-totp-and-hotp/>
