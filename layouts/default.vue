@@ -87,8 +87,8 @@ export default {
 				},
 				{
 					icon: 'mdi-book-open-page-variant-outline',
-					title: 'Threat Analysis',
-					to: '/tasks/threat-analysis',
+					title: 'Risk Analysis',
+					to: '/tasks/risk-analysis',
 				},
 				{
 					icon: 'mdi-book-open-page-variant-outline',
