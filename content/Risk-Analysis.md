@@ -4,7 +4,7 @@ title: Risk Analysis
 
 ## Threat Actors
 
-A threat actor is a person or group that is characterized by malicious or hostile intent using computers, systems or networks. These threat actors are classified into one of multiple groups based on motivations and affiliations. These groups are listed below with a short explanation.
+A threat actor is a person or group that is characterized by malicious or hostile intent using computers, systems or networks. These threat actors are classified into one of multiple groups based on motivations and affiliations. These groups are listed below with a short explanation[[1]](#references).
 
 ### Threat Actor groups
 
@@ -22,7 +22,7 @@ A threat actor is a person or group that is characterized by malicious or hostil
   are typically at the lowest level of sophistication as they often rely on widely available tools that require little technical skill to deploy. Their actions, more often than not, have no lasting effect on their targets beyond reputation.
 
 * **Insider threats**:
-  are individuals working within their organization who are particularly dangerous because of their access to internal networks that are protected by security perimeters. Access is a key component for malicious threat actors and having privileged access eliminates the need to employ other remote means. Insider threats may be associated with any of the other listed types of threat actors but often include disgruntled employees.
+  are individuals working within their organization who are particularly dangerous because of their access to internal networks that are protected by security perimeters. Access is a key component for malicious threat actors and having privileged access eliminates the need to employ other remote means. Insider threats may be associated with any of the other listed types of threat actors but often include disgruntled employees[[2]](#references).
 
 ## Risk Analysis
 
@@ -74,7 +74,7 @@ A threat actor is a person or group that is characterized by malicious or hostil
 
 ## STRIDE
 
-Stride is a model for identifying computer security threats. It provides a mnemonic for security threats in the following six categories:
+Stride is a model for identifying computer security threats. It provides a mnemonic for security threats in the following six categories[[4]](#references):
 
 * Spoofing
 
@@ -104,12 +104,12 @@ Each threat is a violation of a desirable property for a system:
 
 ## Attack Trees
 
-Attack trees are multi-leveled diagrams consisting of one root, leaves, and children. From the bottom up, child nodes are conditions which must be satisfied to make the direct parent node true. Each attack described in a node may require many attacks described in child nodes to be satisfied. Attack trees are related to the established fault tree formalism. Fault tree methodology employs  gate conditions when parent nodes are satisfied by leaf nodes.
+Attack trees are multi-leveled diagrams consisting of one root, leaves, and children. From the bottom up, child nodes are conditions which must be satisfied to make the direct parent node true. Each attack described in a node may require many attacks described in child nodes to be satisfied. Attack trees are related to the established fault tree formalism. Fault tree methodology employs  gate conditions when parent nodes are satisfied by leaf nodes. [[5]](#references)
 
 ## References
 
 1. Iao, K. (2021, August 31). What is a threat actor? Paubox. Retrieved November 15, 2021, from [https://www.paubox.com/blog/what-is-threat-actor](https://www.paubox.com/blog/what-is-threat-actor)
 2. CIS (Center for Internet Security). (2021, June 15). Election Security Spotlight - Cyber Threat Actors. CIS. Retrieved November 15, 2021, from [https://www.cisecurity.org/spotlight/cybersecurity-spotlight-cyber-threat-actors](https://www.cisecurity.org/spotlight/cybersecurity-spotlight-cyber-threat-actors)
 3. Cyber Security Risk Analysis - javatpoint. (n.d.). Www.Javatpoint.Com. Retrieved November 15, 2021, from [https://www.javatpoint.com/cyber-security-risk-analysis](https://www.javatpoint.com/cyber-security-risk-analysis)
-4. Wikipedia contributors. (n.d.). STRIDE (security). Wikipedia. Retrieved November 15, 2021, from [https://en.wikipedia.org/wiki/STRIDE_(security)](https://en.wikipedia.org/wiki/STRIDE_(security))
+4. Wikipedia contributors. (n.d.). STRIDE (security). Wikipedia. Retrieved November 15, 2021, from [https://en.wikipedia.org/wiki/STRIDE_(security)](https://en.wikipedia.org/wiki/STRIDE_(seurity))
 5. Wikipedia contributors. (2021, September 3). Attack tree. Wikipedia. Retrieved November 15, 2021, from [https://en.wikipedia.org/wiki/Attack_tree](https://en.wikipedia.org/wiki/Attack_tree)

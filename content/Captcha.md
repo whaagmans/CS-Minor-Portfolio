@@ -5,7 +5,7 @@ title: Captcha
 ## What is Captcha
 
 ### Reverse turing test
-A reverse Turing test is a Turing test in which the goal or roles of computers and humans are switched. The Turing test is traditionally envisioned involving a human judge and a computer subject attempting to imitate a human. The purpose of this traditional test is for the judge to determine which of these two scenarios is genuinely taking place. A human subject is assumed to be judged human at all times, and a computer is said to "pass the Turing test" if it is judged, human. The similar predicament of a human judge and a human subject attempting to appear human is crucial to the concept. To create a "reverse Turing test," any of these roles can be swapped.
+A reverse Turing test is a Turing test in which the goal or roles of computers and humans are switched. The Turing test is traditionally envisioned involving a human judge and a computer subject attempting to imitate a human. The purpose of this traditional test is for the judge to determine which of these two scenarios is genuinely taking place. A human subject is assumed to be judged human at all times, and a computer is said to "pass the Turing test" if it is judged, human. The similar predicament of a human judge and a human subject attempting to appear human is crucial to the concept. To create a "reverse Turing test," any of these roles can be swapped[[1][2][3][5]](#references).
 
 ## reCaptcha (Google)
 
@@ -17,7 +17,7 @@ Recaptcha operated by showing users a pair of words from a book that was being d
 
 If the user correctly recognizes the control word, the computer assumes that the other word is correct and that the user is a human. The answer to the unknown word is then saved in a database by the computer. The verification pool is a database that can produce a variety of outputs. First, the unknown word is shown to multiple users with various control words, and the results are compared to the answers in the verification pool. Then, the term with the most matches is added to the confirmed pool, and the word that OCR did not recognize is now verified using Recaptcha.
 
-All of this was fantastic, but as Artificial Intelligence and deep learning algorithms advanced, computers began to catch up to people. They were able to solve Captchas with excellent efficiency. Captcha data was utilized for training convolutional neural networks with a 99.8% accuracy rate. However, because computers could solve captchas using text graphics, this was a problem, and something new was necessary.
+All of this was fantastic, but as Artificial Intelligence and deep learning algorithms advanced, computers began to catch up to people. They were able to solve Captchas with excellent efficiency. Captcha data was utilized for training convolutional neural networks with a 99.8% accuracy rate. However, because computers could solve captchas using text graphics, this was a problem, and something new was necessary[[3][6]](#references).
 
 ### reCaptcha v2
 
@@ -27,7 +27,7 @@ Isn't that strange? Previously, users had to recognize text with lines and terri
 
 Recaptcha V2 also included an invisible version in which the user does not have to check a box; instead, the Recaptcha script is activated when a website button is pressed.
 
-Recaptcha V2 was superior to Recaptcha, but it created some friction for the end-user. For example, if Google's risk analysis concluded that the user is a bot for some reason, they had to spot traffic lights in a series of photographs, which is never a pleasurable experience. Recaptcha V3 enters the picture at this point.
+Recaptcha V2 was superior to Recaptcha, but it created some friction for the end-user. For example, if Google's risk analysis concluded that the user is a bot for some reason, they had to spot traffic lights in a series of photographs, which is never a pleasurable experience. Recaptcha V3 enters the picture at this point[[3][6]](#references).
 
 ### reCaptcha v3
 
@@ -45,7 +45,7 @@ Not only that, according to Google, the script also sends "hardware and software
 
 Despite Google's assurances that Recaptcha data is not utilized for advertising, it continues to collect data from its users through scripts that run in the background of websites.
 
-Google has worked hard to improve bot detection on the internet by providing a seamless experience for consumers. However, to do so, it collects data and invades user privacy. Only time will tell if giving up privacy for ease of use was worth it.
+Google has worked hard to improve bot detection on the internet by providing a seamless experience for consumers. However, to do so, it collects data and invades user privacy. Only time will tell if giving up privacy for ease of use was worth it[[3][6]](#references).
 
 ## References
 

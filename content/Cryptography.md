@@ -30,7 +30,7 @@ However, even though it is based on the same principles as public-key cryptograp
 
 ### Diffie Hellman key exchange
 
-The simplest and the original implementation of the protocol uses the multiplicative group of integers modulo p, where p is prime, and g is a primitive root modulo p. These two values are chosen in this way to ensure that the resulting shared secret can take on any value from 1 to p–1. Here is an example of the protocol, with non-secret values in blue, and secret values in red.<sup>[(1)](#references)</sup>
+The simplest and the original implementation of the protocol uses the multiplicative group of integers modulo p, where p is prime, and g is a primitive root modulo p. These two values are chosen in this way to ensure that the resulting shared secret can take on any value from 1 to p–1. Here is an example of the protocol, with non-secret values in blue, and secret values in red.[[1]](#references)
 
 1. Alice and Bob publicly agree to use a modulus *p* = 23 and base *g* = 5 (which is a primitive root modulo 23).
 2. Alice chooses a secret integer *a* = 4, then sends Bob *A* = *g<sup>a</sup>* mod *p*
@@ -73,7 +73,7 @@ Before employing 3DES, users must first generate and share a 3DES key K, which i
 
 ![3DES-scheme](/image/article_img/3des_encryption_scheme.webp '3DES encryption scheme visualization')
 
-The encryption-decryption process works in the following steps:<sup>[(2)](#references)</sup>
+The encryption-decryption process works in the following steps:[[2]](#references)
 
 - Encrypt the plaintext blocks using single DES with key K<sub>1</sub>.
 - Now decrypt the output of step 1 using single DES with key K<sub>2</sub>.
