@@ -73,7 +73,7 @@ export default {
 					background: 'undraw_security_on.svg',
 				},
 				{
-					title: 'Secure Development life cycle',
+					title: 'Secure Development Life Cycle',
 					to: 'tasks/Secure-Development-Life-Cycle',
 					background: 'undraw_product_iteration.svg',
 				},
