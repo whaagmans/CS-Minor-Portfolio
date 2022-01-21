@@ -53,8 +53,8 @@ export default {
 					background: 'undraw_Sorting_thoughts.svg',
 				},
 				{
-					title: 'Threat analysis',
-					to: 'tasks/threat-analysis',
+					title: 'Risk analysis',
+					to: 'tasks/risk-analysis',
 					background: 'undraw_file_analysis.svg',
 				},
 				{
