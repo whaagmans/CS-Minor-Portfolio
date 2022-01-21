@@ -6,7 +6,7 @@ title: Cryptography
 
 An arithmetic logic unit (ALU) is a digital circuit used to perform arithmetic and logic operations. It represents the fundamental building block of the central processing unit (CPU) of a computer. Modern CPUs contain very powerful and complex ALUs. In addition to ALUs, modern CPUs contain a control unit (CU).
 
-One or more ALUs load data from input registers to accomplish the majority of a CPU's operations. A register is a little piece of storage that comes with a CPU. The ALU is told what operation to do on the data by the control unit, and the result is stored in an output register by the ALU. The data is moved between these registers, the ALU, and memory by the control unit.
+One or more ALUs load data from input registers to accomplish the majority of a CPU's operations. A register is a little piece of storage that comes with a CPU. The ALU is told what operation to do on the data by the control unit, and the result is stored in an output register by the ALU. The data is moved between these registers, the ALU, and memory by the control unit[[10]](#references).
 
 ### Factorial prime
 
@@ -16,7 +16,7 @@ First, a refresher in elementary math. What is the definition of a prime number?
 
 It's relatively simple to generate a huge prime number in terms of computation. You start with a large number and then work backwards to see if it's divisible by anything. As a result, we can combine our two prime numbers. Then we multiply them all together - that's all. For a short illustration, consider the following primes:  **19 x 31 = 589**
 
-Okay, the result of multiplying these two primes together is 589. Multiplying two integers is, after all, a mathematically simple task that scales nicely when dealing with larger numbers. **Factoring** numbers, on the other hand, is a computationally tough issue. When dealing with smaller numbers, it's simple, but when dealing with enormous numbers, it can take computers days, months, years, or even centuries to solve. Factoring numbers is a trial-and-error procedure with no fast shortcuts. You'd have to attempt all of the prime numbers that are smaller than 589 until you discovered which prime numbers add up to 589 when multiplied together. This works for smaller numbers, but when dealing with really large numbers, the number of possible numbers to compare gets so large that even current computers are unable to do so in a reasonable length of time.
+Okay, the result of multiplying these two primes together is 589. Multiplying two integers is, after all, a mathematically simple task that scales nicely when dealing with larger numbers. **Factoring** numbers, on the other hand, is a computationally tough issue. When dealing with smaller numbers, it's simple, but when dealing with enormous numbers, it can take computers days, months, years, or even centuries to solve. Factoring numbers is a trial-and-error procedure with no fast shortcuts. You'd have to attempt all of the prime numbers that are smaller than 589 until you discovered which prime numbers add up to 589 when multiplied together. This works for smaller numbers, but when dealing with really large numbers, the number of possible numbers to compare gets so large that even current computers are unable to do so in a reasonable length of time[[9]](#references).
 
 ## Diffie Hellman
 
@@ -26,11 +26,11 @@ This is especially handy since you can use it to build an encryption key with so
 
 It works in a rather straightforward manner. In that a trapdoor function is employed, most of the math is similar to that seen in public-key cryptography. While the discrete logarithm problem (the *x<sup>y</sup> mod p* business) is generally utilized, the general procedure can be adjusted to use elliptic curve cryptography instead.
 
-However, even though it is based on the same principles as public-key cryptography, it is not asymmetric cryptography because no data is encrypted or decrypted during the exchange. It is, nevertheless, an important building piece that served as the foundation for asymmetric cryptography.
+However, even though it is based on the same principles as public-key cryptography, it is not asymmetric cryptography because no data is encrypted or decrypted during the exchange. It is, nevertheless, an important building piece that served as the foundation for asymmetric cryptography[[1][7][8]](#references).
 
 ### Diffie Hellman key exchange
 
-The simplest and the original implementation of the protocol uses the multiplicative group of integers modulo p, where p is prime, and g is a primitive root modulo p. These two values are chosen in this way to ensure that the resulting shared secret can take on any value from 1 to p–1. Here is an example of the protocol, with non-secret values in blue, and secret values in red.[[1]](#references)
+The simplest and the original implementation of the protocol uses the multiplicative group of integers modulo p, where p is prime, and g is a primitive root modulo p. These two values are chosen in this way to ensure that the resulting shared secret can take on any value from 1 to p–1. Here is an example of the protocol, with non-secret values in blue, and secret values in red[[1][7][8]](#references).
 
 1. Alice and Bob publicly agree to use a modulus *p* = 23 and base *g* = 5 (which is a primitive root modulo 23).
 2. Alice chooses a secret integer *a* = 4, then sends Bob *A* = *g<sup>a</sup>* mod *p*
@@ -47,7 +47,7 @@ The simplest and the original implementation of the protocol uses the multiplica
 
 The Advanced Encryption Standard (AES) is the most popular and commonly used symmetric encryption algorithm available today (AES). It is at least six times faster than triple DES in terms of discovery.
 
-Because the key size of DES was too small, a replacement was required. It was thought to be vulnerable to an exhaustive key search assault as processing power increased. Triple DES was created to address this flaw, however it was proven to be sluggish.
+Because the key size of DES was too small, a replacement was required. It was thought to be vulnerable to an exhaustive key search assault as processing power increased. Triple DES was created to address this flaw, however it was proven to be sluggish[[3][5][6]](#references).
 
 #### AES Operation
 
@@ -55,7 +55,7 @@ Rather than being a Feistel cipher, AES is an iterative cipher. It is built base
 
 Surprisingly, AES uses bytes rather than bits for all of its calculations. As a result, AES considers a plaintext block's 128 bits as 16 bytes. For matrix processing, these 16 bytes are organized into four columns and four rows.
 
-In contrast to DES, the number of rounds in AES is configurable and dependent on the key length. For 128-bit keys, AES employs 10 rounds, 12 rounds for 192-bit keys, and 14 rounds for 256-bit keys. Each of these rounds uses a unique 128-bit round key derived from the original AES key.
+In contrast to DES, the number of rounds in AES is configurable and dependent on the key length. For 128-bit keys, AES employs 10 rounds, 12 rounds for 192-bit keys, and 14 rounds for 256-bit keys. Each of these rounds uses a unique 128-bit round key derived from the original AES key[[3][5][6]](#references).
 
 ## Triple Data Encryption Algorithm (3DES)
 
@@ -94,3 +94,10 @@ Triple DES systems are much more secure than single DES, but they are unquestion
 2. Triple DES. (n.d.). Tutorialspoint. Retrieved November 10, 2021, from [https://www.tutorialspoint.com/cryptography](https://www.tutorialspoint.com/cryptography/triple_des.htm)
 3. Secure your data with AES-256 encryption. (2019, September 26). Atpinc. Retrieved November 10, 2021, from [https://www.atpinc.com/blog/what-is-aes-256-encryption](https://www.atpinc.com/blog/what-is-aes-256-encryption)
 4. Wikipedia contributors. (2022, January 12). Block cipher mode of operation. Wikipedia. Retrieved January 14, 2022, from [https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation)
+5. Rimkienė, R. (2021, September 28). What is AES encryption and how does it work? CyberNews. Retrieved January 10, 2022, from <https://cybernews.com/resources/what-is-aes-encryption/>
+6. Lake, J. (2020, February 17). What is AES encryption and how does it work? Comparitech. Retrieved January 12, 2022, from <https://www.comparitech.com/blog/information-security/what-is-aes-encryption/>
+7. Wikipedia contributors. (2022c, January 18). Diffie–Hellman key exchange. Wikipedia. Retrieved January 11, 2022, from <https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange>
+8. Lake, J. (2021, March 23). What is the Diffie–Hellman key exchange and how does it work? Comparitech. Retrieved January 11, 2022, from <https://www.comparitech.com/blog/information-security/diffie-hellman-key-exchange/>
+9. Wikipedia contributors. (2022b, January 12). Factorial prime. Wikipedia. Retrieved January 12, 2022, from <https://en.wikipedia.org/wiki/Factorial_prime>
+10. Wikipedia contributors. (2021b, November 21). Arithmetic logic unit. Wikipedia. Retrieved January 11, 2022, from https://en.wikipedia.org/wiki/Arithmetic_logic_unit
+
