@@ -4,7 +4,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s | CS Minor Portfolio',
-    title: 'CS Minor',
+    title: 'Cyber Security Minor Fontys',
     meta: [
       { charset: 'utf-8' },
       {
