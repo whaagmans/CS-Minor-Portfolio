@@ -9,19 +9,19 @@ export default {
       { charset: 'utf-8' },
       {
         name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
+        content: 'width=device-width, initial-scale=1',
       },
       {
         hid: 'description',
         name: 'description',
-        content: 'Portfolio for my FHICT Cyber Security minor'
+        content: 'Portfolio for my FHICT Cyber Security minor',
       },
       {
         name: 'theme-color',
-        content: '#121212'
-      }
+        content: '#121212',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -43,7 +43,7 @@ export default {
     // https://google-analytics.nuxtjs.org
     '@nuxtjs/google-analytics',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -59,22 +59,22 @@ export default {
     // https://sentry.nuxtjs.org/
     '@nuxtjs/sentry',
     // https://sitemap.nuxtjs.org/
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
   ],
 
   sentry: {
     dsn: process.env.SENTRY_DSN || '',
     tracing: true,
-    browserOptions: {}
+    browserOptions: {},
   },
 
   content: {
-    liveEdit: false
+    liveEdit: false,
   },
 
   toast: {
     position: 'bottom-center',
-    duration: 5000
+    duration: 5000,
   },
 
   firebase: {
@@ -84,11 +84,11 @@ export default {
       projectId: 'cs-minor-portfolio-wh',
       storageBucket: 'cs-minor-portfolio-wh.appspot.com',
       messagingSenderId: '845058648604',
-      appId: '1:845058648604:web:fd2a8ae98fe117c3068dd9'
+      appId: '1:845058648604:web:fd2a8ae98fe117c3068dd9',
     },
     services: {
-      firestore: true
-    }
+      firestore: true,
+    },
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -101,11 +101,11 @@ export default {
       short_name: 'CSM',
       lang: 'en',
       theme_color: '#121212',
-      background_color: '#121212'
+      background_color: '#121212',
     },
     icon: {
-      fileName: 'cs-minor-icon.png'
-    }
+      fileName: 'cs-minor-icon.png',
+    },
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
@@ -120,18 +120,22 @@ export default {
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
-          success: colors.green.accent3
-        }
-      }
-    }
+          success: colors.green.accent3,
+        },
+      },
+    },
   },
 
   googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID || ''
+    id: process.env.GOOGLE_ANALYTICS_ID || '',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    extractCSS: true
-  }
+    extractCSS: true,
+    // Workaround for issue https://github.com/nuxt/nuxt/issues/10751
+    extend(config) {
+      config.resolve.alias['node-fetch-native'] = require.resolve('node-fetch');
+    },
+  },
 };
