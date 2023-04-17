@@ -104,11 +104,15 @@ export default {
           title: 'ICT Article',
           to: '/tasks/ICT-Article',
         },
+        {
+          icon: 'mdi-book-open-page-variant-outline',
+          title: 'Learn',
+          to: '/tasks/learn',
+        },
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      // title: 'CS Minor',
     };
   },
   computed: {
