@@ -110,7 +110,7 @@ export default {
           to: '/tasks/learn',
         },
         {
-          icon: 'mdi-school',
+          icon: 'mdi-school-outline',
           title: 'Research',
           to: '/tasks/research',
         },
