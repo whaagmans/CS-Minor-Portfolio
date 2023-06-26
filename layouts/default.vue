@@ -109,6 +109,11 @@ export default {
           title: 'Learn',
           to: '/tasks/learn',
         },
+        {
+          icon: 'mdi-school',
+          title: 'Research',
+          to: '/tasks/research',
+        },
       ],
       miniVariant: false,
       right: true,
