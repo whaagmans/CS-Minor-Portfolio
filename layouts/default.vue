@@ -105,11 +105,6 @@ export default {
           to: '/tasks/ICT-Article',
         },
         {
-          icon: 'mdi-book-open-page-variant-outline',
-          title: 'Learn',
-          to: '/tasks/learn',
-        },
-        {
           icon: 'mdi-school-outline',
           title: 'Research',
           to: '/tasks/research',
