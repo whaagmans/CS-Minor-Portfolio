@@ -88,7 +88,7 @@ export default {
           background: 'undraw_online_articles.svg',
         },
         {
-          title: 'Research (best crypto cipher IOT)',
+          title: 'Research (Cryptography)',
           to: 'tasks/research',
           background: 'undraw_science_re_mnnr.svg',
         },
