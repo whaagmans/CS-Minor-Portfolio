@@ -24,7 +24,7 @@
     "@vue/shared": "^3.3.4",
     "cookie-universal-nuxt": "^2.1.5",
     "core-js": "^3.26.0",
-    "crypto-js": "^4.1.1",
+    "crypto-js": "^4.2.0",
     "luxon": "^2.3.1",
     "node-fetch-native": "^1.1.0",
     "nuxt": "^2.15.8",
