@@ -1,5 +1,19 @@
 <template>
   <v-app>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VY6XKRB7X2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-VY6XKRB7X2');
+    </script>
     <v-navigation-drawer v-model="drawer" fixed app>
       <v-list>
         <v-list-item
