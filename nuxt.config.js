@@ -77,12 +77,12 @@ export default {
 
   firebase: {
     config: {
-      apiKey: 'AIzaSyDUqyxNHDHxi75XFazSawUFEtSVFna6JBs',
-      authDomain: 'cs-minor-portfolio-wh.firebaseapp.com',
-      projectId: 'cs-minor-portfolio-wh',
-      storageBucket: 'cs-minor-portfolio-wh.appspot.com',
-      messagingSenderId: '845058648604',
-      appId: '1:845058648604:web:fd2a8ae98fe117c3068dd9',
+      apiKey: process.env.FIREBASE_API_KEY,
+      authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+      projectId: process.env.FIREBASE_PROJECT_ID,
+      storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+      messagingSenderId: process.env.FIREBASE_MESSAGE_SENDER_ID,
+      appId: process.env.FIREBASE_APP_ID,
     },
     services: {
       firestore: true,
